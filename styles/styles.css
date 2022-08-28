@@ -15,7 +15,7 @@ a:hover{
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 55px;
 /* identical to box height */
 text-decoration: none;
 letter-spacing: 0.03em;
@@ -26,49 +26,22 @@ span{
     color: #2196F3;
 }
 
-li{
-    color: white;
-}
-
-.Studio{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-decoration: none;
-color: #000;
+.list-header{
+   list-style: none;
+   margin: 0;
+   padding: 0;
 }
 
 
 
-
-.portpholio{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-decoration: none;
-color: #000;
+.nav-list{
+    color: #212121;
+    text-decoration: none;
+    width: 290px;
+    height: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
-
-
-
-
-.contact{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-decoration: none;
-color: #000;
-}
-
 
 
 .email{
@@ -97,7 +70,7 @@ color: #000;
 
 /* main */
 
-.sec-1{
+.hero-section{
     width: 1600px;
 height: 600px;
 background: #2F303A;
@@ -128,27 +101,32 @@ button{
  }
 
 h2{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-text-align: center;
-color: #212121;
+    margin-top: 94px;
 }
 
-p{
+ .delo-list{
+    width: 1170px;
+ }
+
+ .delo-item{
+    color: white;
+ }
+
+.main-item{
+    width: 270px;
+height: 101px;
+margin-top: 94px;
+color: #FFFFFF;
+}
+
+.child-item{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
-
 letter-spacing: 0.03em;
-
 color: #757575;
 
 }
@@ -169,6 +147,11 @@ color: #212121;
 }
 .our-team{
     background: #F5F4FA;
+}
+
+.card-item{
+    color: #F5F4FA;
+    
 }
 h5{
     font-family: 'Roboto';
