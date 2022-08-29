@@ -83,7 +83,6 @@ font-weight: 900;
 font-size: 44px;
 line-height: 60px;
 /* or 136% */
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -102,6 +101,16 @@ button{
 
 h2{
     margin-top: 94px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
 }
 
  .delo-list{
@@ -119,6 +128,7 @@ margin-top: 94px;
 color: #FFFFFF;
 }
 
+
 .child-item{
     font-family: 'Roboto';
 font-style: normal;
@@ -127,23 +137,25 @@ font-size: 14px;
 line-height: 24px;
 /* or 171% */
 letter-spacing: 0.03em;
+
 color: #757575;
 
 }
 
+
+
+
 h3{
     font-family: 'Roboto';
-    width: 264px;
-height: 42px;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    
 }
 .our-team{
     background: #F5F4FA;
@@ -167,6 +179,21 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
+
+.card-child{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
 /* footer */
 
 .footer{
