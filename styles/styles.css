@@ -1,23 +1,18 @@
-/* body */
 body{
-    width: 1600px;
-height: 2349px;
-
-background: #FFFFFF;
+    font-family: 'Roboto';
 }
 
-
-a:hover{
-    color:#2196F3;   
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
 }
-.logo{
+
+/* header */
+   .header-logo{
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 55px;
-/* identical to box height */
-text-decoration: none;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #000;
 }
@@ -35,12 +30,17 @@ span{
 
 
 .nav-list{
+    font-weight: 500;
     color: #212121;
-    text-decoration: none;
     width: 290px;
     height: 16px;
     margin-top: 32px;
     margin-bottom: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-list:hover{
+    color: #2196F3;
 }
 
 
@@ -51,21 +51,26 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-text-decoration: none;
 color: #000;
+font-family: 'Roboto', sans-serif;
 }
 
-
+.email:hover{
+    color: #2196F3;
+}
 
 .tel{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-text-decoration: none;
 color: #000;
+font-family: 'Roboto', sans-serif;
+}
+
+.tel:hover{
+    color: #2196F3;
 }
 
 /* main */
@@ -78,11 +83,9 @@ background: #2F303A;
 
 h1{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -92,17 +95,22 @@ color: #FFFFFF;
 }
 
 button{
-
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px; 
-    background-color: #2196F3;
+    border-radius: 4px;
     color: #FFFFFF;
- }
+    border: #2196F3;
+}
 
 h2{
-    margin-top: 94px;
-    font-family: 'Roboto';
-font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+color: #757575;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -112,6 +120,8 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
+
+
 
  .delo-list{
     width: 1170px;
@@ -123,19 +133,14 @@ color: #212121;
 
 .main-item{
     width: 270px;
-height: 101px;
-margin-top: 94px;
 color: #FFFFFF;
 }
 
 
 .child-item{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
-/* or 171% */
 letter-spacing: 0.03em;
 
 color: #757575;
@@ -146,8 +151,6 @@ color: #757575;
 
 
 h3{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -166,12 +169,9 @@ h3{
     
 }
 h5{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
 
 
 letter-spacing: 0.03em;
@@ -181,15 +181,11 @@ color: #212121;
 }
 
 .card-child{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
-
 color: #757575;
 
 }
@@ -198,11 +194,11 @@ color: #757575;
 
 .footer{
     background: #2F303A;
+    margin: 0;
 }
 
 address{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -214,26 +210,13 @@ color: #FFFFFF;
 
 }
 
-.a{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-text-decoration: none;
-letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
-}
 
-.flogo{
+.footer-logo{
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
+    font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
 
 letter-spacing: 0.03em;
 
