@@ -14,7 +14,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #000;
+ color: #000000;
 }
 
 span{
@@ -22,7 +22,7 @@ span{
 }
 
 .list-header{
-   list-style: none;
+    list-style: none;
    margin: 0;
    padding: 0;
 }
@@ -32,11 +32,12 @@ span{
 .nav-list{
     font-weight: 500;
     color: #212121;
-    width: 290px;
+    width: 72px;
     height: 16px;
     margin-top: 32px;
     margin-bottom: 32px;
-    font-family: 'Roboto'
+    margin-right: 55px;
+    font-style: normal;
     }
 
 .nav-list:hover{
@@ -47,9 +48,10 @@ span{
 .email{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #000;
+color: #757575;
+font-style: normal;
 }
 
 .email:hover{
@@ -59,10 +61,11 @@ color: #000;
 .tel{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #000;
+color: #757575;
 font-family: 'Roboto';
+font-style: normal;
 }
 
 .tel:hover{
@@ -80,7 +83,7 @@ background: #2F303A;
 h1{
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -99,16 +102,15 @@ button{
     border: #2196F3;
 }
 
-h2{
+.name-section{
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 
 color: #757575;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -145,10 +147,10 @@ color: #757575;
 
 
 
-h3{
+.block-name{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
@@ -163,10 +165,10 @@ h3{
     color: #F5F4FA;
     
 }
-h5{
+.card-name{
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 
 
 letter-spacing: 0.03em;
@@ -178,7 +180,7 @@ color: #212121;
 .card-child{
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
@@ -195,7 +197,7 @@ color: #757575;
 address{
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -210,7 +212,7 @@ color: #FFFFFF;
     font-family: 'Raleway';
     font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 0.03;
 
 letter-spacing: 0.03em;
 
