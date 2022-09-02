@@ -239,6 +239,8 @@ color: #757575;
 .footer{
     background: #2F303A;
     margin: 0;
+    width: 1600px;
+    height: 252px;
 }
 
 address{
