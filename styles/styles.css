@@ -7,23 +7,36 @@ a{
     color: rgba(255, 255, 255, 0.6);
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* header */
 
-header{
-    outline: 2px solid red;
-    width: 1600px;
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+header .container{
+    display: flex;
+    align-items: center;
     height: 80px;
 }
-   .header-logo{
-    left: 215px;
-top: 24px;
 
+   .header-logo{
+
+margin-right: 93px;
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
 letter-spacing: 0.03em;
 
 color: black;
@@ -35,25 +48,22 @@ span{
 }
 
 .list-header{
-    list-style: none;
-   margin: 0;
-   padding: 0;
    display: flex;
-   margin-left: 453px;
 }
 
-
+nav{
+    display: flex;
+    align-items: center;
+}
 
 .nav-list{
     font-weight: 500;
     color: #212121;
-    width: 72px;
-    height: 16px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-right: 55px;
-    font-style: normal;
     }
+
+.nav-item{
+    margin-right: 55px;
+}
 
 .nav-list:hover{
     color: #2196F3;
@@ -61,12 +71,16 @@ span{
 
 
 .email{
+/* info@devstudio.com */
+
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
+line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575;
-font-style: normal;
+margin-left: auto;
+
+
 }
 
 .email:hover{
@@ -74,13 +88,17 @@ font-style: normal;
 }
 
 .tel{
+/* +38 096 111 11 11 */
+
+
+margin-left: 50px;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
+line-height: 16px;
 letter-spacing: 0.02em;
+
 color: #757575;
-font-family: 'Roboto';
-font-style: normal;
+
 }
 
 .tel:hover{
@@ -93,18 +111,15 @@ font-style: normal;
     width: 1600px;
 height: 600px;
 background: #2F303A;
-outline: 2px solid red;
 padding-left: 200px;
 }
 
 .title{
     width: 696px;
 height: 120px;
-margin-left: auto;
-margin-right: auto;
 padding-top: 166px;
-
-font-family: 'Roboto';
+margin-left: 150px;
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -114,70 +129,64 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: #FFFFFF;
-
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
 
 color: #FFFFFF;
+
 
 }
 
 .title-button{
-    width: 200px;
-    height: 50px;
-    background: #2196F3;
+background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #FFFFFF;
-    border: #2196F3;
+color: #FFFFFF;
+border: #2196F3;
+width: 200px;
+height: 50px;
+margin-top: 250px;
+margin-left: 400px;
+
+
 }
+
+
 
 .title-button:hover{
     background: #F5F4FA;
     color: #2196F3;
 }
 
-.h2{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
 
-color: #757575;
-font-weight: 700;
-font-size: 36px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
-
-}
-
-.delo-section{
-    outline: 2px solid red;
-}
 
  .delo-list{
-    width: 1170px;
+   
+    display: flex;
+    margin-left: 515;
+    margin-top: 50px;
+    margin-bottom: 94px;
  }
 
  .delo-item{
     color: white;
+    margin-right: 30px;
  }
-
-.main-item{
-    width: 270px;
-color: #FFFFFF;
+.text-section{
+    width: 1200px;
 }
 
+
+ .main-list{
+    width: 1200px;
+    margin-left: 215px;
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 94px;
+ }
+.main-item{
+    width: 270px;
+height: 101px;
+margin-left: 30px;
+}
 
 .child-item{
 font-weight: 400;
@@ -192,6 +201,19 @@ h1,h2,h3,h4,h5{
     margin: 0;
 }
 
+.name-section{
+    text-align: center;
+    margin-top: 94px;
+color: #212121;
+    
+
+}
+
+.name-team{
+    text-align: center;
+    margin-top: 94px;
+}
+
 
 .block-name{
     font-weight: 700;
@@ -204,19 +226,32 @@ h1,h2,h3,h4,h5{
     
 }
 .our-team{
-    background: #F5F4FA;
-    outline: 2px solid red;
+    
+    width: 1600px;
+    height: 648px;
+background: #F5F4FA;
+}
+
+.card-list{
+ display: flex;
+ margin-top: 50px;
+ padding-bottom: 94px;
 }
 
 .card-item{
-    color: #F5F4FA;
+   
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+margin-left: 30px;
     
 }
 .card-name{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
-
+text-align: center;
 
 letter-spacing: 0.03em;
 
@@ -228,28 +263,30 @@ color: #212121;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
-text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
+text-align: center;
 
 }
 
 /* footer */
 
 .footer{
-    background: #2F303A;
-    margin: 0;
     width: 1600px;
-    height: 252px;
+height: 252px;
+
+background: #2F303A;
+
 }
 
 address{
+padding-top: 60px;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
-
 letter-spacing: 0.03em;
+margin-left: 215px;
+padding-top: 111px;
 
 color: #FFFFFF;
 
@@ -258,13 +295,25 @@ color: #FFFFFF;
 
 
 .footer-logo{
+    position: absolute;
+    left: 215px;
+    top: 2250px;
+    
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
-font-size: 26px;
-line-height: 0.03;
-
-letter-spacing: 0.03em;
-
-color:#FFFFFF;
-text-decoration: none;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    
 }
+
+.footer-item{
+    display: block;
+    margin-left: 215px;
+    margin-top: 9px;
+
+}
+

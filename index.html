@@ -12,37 +12,41 @@
 <body>
     <!-- Хэадэр -->
     <header>
+        <div class="container">
+            <nav>
         <a class="header-logo" href="./index.html">
             <span>Web</span>Studio
         </a>
-        <nav>
+        
             <ul class="list-header">
-            <li>
+            <li class="nav-item">
                <a class="nav-list" href="./index.html">Студія</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav-list" href="./portfholio.html">Портфоліо</a> 
               </li>
-            <li>
+            <li class="nav-item">
                <a class="nav-list" href="./register.html">Контакти</a> 
             </li>
         </ul>
+    </nav>
             <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
-            </nav>
-            
+            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a> 
+            </div>
     </header>
     <!-- Main -->
     <main>
         <!-- ЕФЕКТИВНІ РІШЕННЯ -->
         <section class="hero-section">
+            <div class="container">
     <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
     <a href="./register.html"><button class="title-button" type="button">Замовити послугу</button></a>
+    </div>
     </section>
     <!-- Список карточок -->
     <section class="text-section">
-        <h2 hidden>Feachers</h2>
-    <ul>
+        <h2 class="name-section1" hidden>Feachers</h2>
+    <ul class="main-list">
     <li class="main-item">
         <h3 class="block-name">УВАГА ДО ДЕТАЛЕЙ</h3>
         <p class="child-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>
@@ -60,10 +64,12 @@
         <p class="child-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem veritatis exercitationem velit magnam iure.</p>   
     </li>
     </ul>
+</div>
     </section>
     <!-- Чим ми займаємося -->
     <section class="delo-section">
-    <h2>Чим ми займаємося</h2>
+        <div class="container">
+    <h2 class="name-section">Чим ми займаємося</h2>
     <ul class="delo-list">
         <li class="delo-item">
             <img src="img/box1.png" alt="box1">
@@ -75,11 +81,13 @@
             <img src="img/box3.png" alt="box3">
         </li>
     </ul>
+    </div>
     </section>
     <!-- Наша команда -->
     <section class="our-team">
-    <h2>Наша команда</h2>
-    <ul>
+        <div class="container">
+    <h2 class="name-team">Наша команда</h2>
+    <ul class="card-list">
         <li class="card-item">
             
             <img src="img/taras.png" alt="Ігор Дем’яненко" width="270" height="260">
@@ -105,6 +113,7 @@
             <p class="card-child">UI Designer</p>
         </li>
     </ul>
+    </div>
     </section>
     </main>
     <!-- Footer -->
