@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto';
+    width: 1600px;
 }
 
 a{
@@ -112,13 +113,18 @@ color: #757575;
 height: 600px;
 background: #2F303A;
 padding-left: 200px;
+align-items: center;
+}
+
+.hero-section .container{
+    width: 1170px;
+    margin-left: 0px;
 }
 
 .title{
     width: 696px;
 height: 120px;
 padding-top: 166px;
-margin-left: 150px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
@@ -128,6 +134,7 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+margin-left: 270px;
 
 
 color: #FFFFFF;
@@ -144,7 +151,7 @@ border: #2196F3;
 width: 200px;
 height: 50px;
 margin-top: 250px;
-margin-left: 400px;
+margin-left: 530px;
 
 
 }
@@ -156,14 +163,23 @@ margin-left: 400px;
     color: #2196F3;
 }
 
+.delo-section{
+    width: 1170px;
+height: 386px;
+}
 
+.delo-section .container{
+    align-items: center;
+    height: 386px;
+    margin-left: 215px;
+    width: 1170px;
+}
 
  .delo-list{
-   
     display: flex;
-    margin-left: 515;
     margin-top: 50px;
     margin-bottom: 94px;
+    width: 1170px;
  }
 
  .delo-item{
@@ -177,10 +193,10 @@ margin-left: 400px;
 
  .main-list{
     width: 1200px;
-    margin-left: 215px;
     display: flex;
     margin-top: 94px;
     margin-bottom: 94px;
+    margin-left: 215px;
  }
 .main-item{
     width: 270px;
@@ -201,17 +217,11 @@ h1,h2,h3,h4,h5{
     margin: 0;
 }
 
-.name-section{
-    text-align: center;
+.name-section1{
     margin-top: 94px;
 color: #212121;
-    
-
-}
-
-.name-team{
-    text-align: center;
-    margin-top: 94px;
+width: 366px;
+margin-left: 455px;
 }
 
 
@@ -232,10 +242,18 @@ color: #212121;
 background: #F5F4FA;
 }
 
+.our-team .container{
+    width: 1170px;
+margin-left: 180px;
+
+}
+
 .card-list{
  display: flex;
  margin-top: 50px;
  padding-bottom: 94px;
+ width: 1170px;
+
 }
 
 .card-item{
@@ -274,10 +292,14 @@ text-align: center;
 .footer{
     width: 1600px;
 height: 252px;
+margin: 0;
+padding: 0;
 
 background: #2F303A;
 
 }
+
+
 
 address{
 padding-top: 60px;
@@ -285,19 +307,21 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-margin-left: 215px;
 padding-top: 111px;
 
 color: #FFFFFF;
 
 }
 
-
+.name-section2{
+    margin-left: 530px;
+    padding-top: 94px;
+}
 
 .footer-logo{
     position: absolute;
-    left: 215px;
-    top: 2250px;
+top: 2280px;
+
     
     font-family: 'Raleway';
     font-style: normal;
@@ -312,7 +336,6 @@ color: #FFFFFF;
 
 .footer-item{
     display: block;
-    margin-left: 215px;
     margin-top: 9px;
 
 }
