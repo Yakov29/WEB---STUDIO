@@ -1,0 +1,185 @@
+body{
+    font-family: 'Roboto';
+    width: 1600px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* header */
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.line{
+    width: 1600px;
+    background: gainsboro;
+    height: 1px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+   .header-logo{
+
+margin-right: 93px;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: black;
+
+}
+
+span{
+    color: #2196F3;
+}
+
+.list-header{
+   display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    font-weight: 500;
+    color: #212121;
+    }
+
+.nav-item{
+    margin-right: 55px;
+}
+
+.nav-list:hover{
+    color: #2196F3;
+}
+
+
+.email{
+/* info@devstudio.com */
+
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+margin-left: auto;
+
+
+}
+
+.email:hover{
+    color: #2196F3;
+}
+
+.tel{
+/* +38 096 111 11 11 */
+
+
+margin-left: 50px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+
+.tel:hover{
+    color: #2196F3;
+}
+
+
+.button-list{
+    display: flex;
+    margin-left: 495px;
+    margin-top: 94px;
+}
+
+.list-item{
+    margin-left: 8px;
+}
+
+.button-nav{
+    width: 130px;
+height: 38px;
+background: #F5F4FA;
+border-radius: 4px;
+border: #757575;
+}
+
+.button-nav:hover{
+    background: #2196F3;
+    color: #F5F4FA;
+}
+
+.main-list{
+    display: flex;
+    width: 1400px;
+    flex-wrap: wrap;
+    margin-top: 34px;
+    margin-left: 200px;
+    margin-bottom: 94px;
+}
+
+.main-item{
+    margin-left: 30px;
+}
+
+footer{
+    width: 1600px;
+height: 252px;
+background: #2F303A;
+}
+
+.footer-logo{
+    position: absolute;
+    top: 1640px; 
+    margin-left: 215px;
+    color:#F5F4FA;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+
+address{
+    padding-top: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    padding-top: 111px;
+    margin-left: 215px;
+    color: #FFFFFF;
+    
+    }
+
+.footer-item{
+    display: block;
+    margin-top: 9px;
+    margin-left: 215px;
+}
