@@ -22,11 +22,11 @@ ul{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: solid 10px red;
+    /* outline: solid 10px red; */
 }
 
 header, section{
-    outline: 10px solid green;
+    /* outline: 10px solid green; */
 }
 
 header .container{
