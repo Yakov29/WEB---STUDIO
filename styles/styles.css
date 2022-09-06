@@ -22,11 +22,12 @@ ul{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    outline: solid 10px red;
 }
 
-/* header, section{
-
-} */
+header, section{
+    outline: 10px solid green;
+}
 
 header .container{
     display: flex;
@@ -136,6 +137,7 @@ line-height: 60px;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 margin-bottom: 30px;
+
 color: #FFFFFF;
 
 
