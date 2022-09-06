@@ -20,10 +20,13 @@ ul{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+/* header, section{
 
+} */
 
 header .container{
     display: flex;
@@ -112,35 +115,34 @@ color: #757575;
     width: 1600px;
 height: 600px;
 background: #2F303A;
-padding-left: 200px;
 align-items: center;
+text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .hero-section .container{
-    width: 1170px;
-    margin-left: 0px;
+    width: 1600px;
+    height: 600px;
+
 }
 
 .title{
-    width: 696px;
-height: 120px;
-padding-top: 166px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* or 136% */
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-margin-left: 270px;
-
-
+margin-bottom: 30px;
 color: #FFFFFF;
 
 
 }
+
+
+
 
 .title-button{
 background: #2196F3;
@@ -150,52 +152,46 @@ color: #FFFFFF;
 border: #2196F3;
 width: 200px;
 height: 50px;
-margin-top: 250px;
-margin-left: 530px;
 
 
 }
 
 
 .delo-section{
-    width: 1170px;
-height: 386px;
+    padding-bottom: 94px;
+    text-align: center;
 }
 
-.delo-section .container{
-    align-items: center;
-    height: 386px;
-    margin-left: 215px;
-    width: 1170px;
-}
 
  .delo-list{
     display: flex;
     margin-top: 50px;
-    margin-bottom: 94px;
-    width: 1170px;
  }
 
  .delo-item{
     color: white;
     margin-right: 30px;
  }
+
+ .delo-item:last-child{
+    margin-right: 0;
+ }
+
 .text-section{
-    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-
  .main-list{
-    width: 1200px;
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
-    margin-left: 215px;
  }
 .main-item{
     width: 270px;
-height: 101px;
 margin-left: 30px;
+}
+
+.main-item:first-child{
+    margin-left: 0;
 }
 
 .child-item{
@@ -211,12 +207,12 @@ h1,h2,h3,h4,h5{
     margin: 0;
 }
 
-.name-section1{
-    margin-top: 94px;
+.name-section-work{
 color: #212121;
-width: 366px;
-margin-left: 455px;
 }
+
+/* .name-section-team{
+} */
 
 
 .block-name{
@@ -230,16 +226,15 @@ margin-left: 455px;
     
 }
 .our-team{
-    
-    width: 1600px;
-    height: 648px;
-background: #F5F4FA;
+    text-align: center;
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .our-team .container{
     width: 1170px;
-margin-left: 180px;
-
+margin-left: 215px;
 }
 
 .card-list{
@@ -255,23 +250,25 @@ margin-left: 180px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    
-margin-left: 30px;
+    margin-right: 30px;
     
 }
+
+
+
 .card-name{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-
+margin-top: 30px;
 letter-spacing: 0.03em;
 
 color: #212121;
 
 }
 
-.card-child{
+.card-description{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
@@ -283,38 +280,34 @@ text-align: center;
 
 /* footer */
 
-.footer{
-    width: 1600px;
-height: 252px;
-margin: 0;
-padding: 0;
-
+footer{
+    padding-top: 60px;
 background: #2F303A;
+height: 252px;
 
 }
+
+footer .container{
+    margin: 0;
+}
+
+
 
 
 
 address{
-padding-top: 60px;
+    margin-top: 20px;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-padding-top: 111px;
-
+margin-left: 215px;
 color: #FFFFFF;
 
 }
 
-.name-section2{
-    margin-left: 530px;
-    padding-top: 94px;
-}
-
 .footer-logo{
-    position: absolute;
-top: 2280px;
+margin-left: 215px;
 
     
     font-family: 'Raleway';
@@ -330,7 +323,7 @@ top: 2280px;
 
 .footer-item{
     display: block;
+    margin-left: 215px;
     margin-top: 9px;
-
 }
 
