@@ -20,14 +20,13 @@ ul{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.line{
-    width: 1600px;
-    background: gainsboro;
-    height: 1px;
-}
+/* header, section{
+
+} */
 
 header .container{
     display: flex;
@@ -110,6 +109,13 @@ color: #757575;
     color: #2196F3;
 }
 
+.line{
+    width: 1600px;
+    height: 1px;
+    outline: solid 0.0001px #757575;
+
+}
+
 
 .button-list{
     display: flex;
@@ -147,39 +153,52 @@ border: #757575;
     margin-left: 30px;
 }
 
+/* footer */
+
 footer{
-    width: 1600px;
-height: 252px;
+    padding-top: 60px;
 background: #2F303A;
+height: 252px;
+
+}
+
+footer .container{
+    margin: 0;
+}
+
+
+
+
+
+address{
+    margin-top: 20px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+margin-left: 215px;
+color: #FFFFFF;
+
 }
 
 .footer-logo{
-    position: absolute;
-    top: 1640px; 
-    margin-left: 215px;
-    color:#F5F4FA;
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-}
+margin-left: 215px;
 
-address{
-    padding-top: 60px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
     letter-spacing: 0.03em;
-    padding-top: 111px;
-    margin-left: 215px;
     color: #FFFFFF;
     
-    }
+}
 
 .footer-item{
     display: block;
-    margin-top: 9px;
     margin-left: 215px;
+    margin-top: 9px;
 }
+
