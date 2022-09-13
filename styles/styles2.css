@@ -31,6 +31,10 @@ header{
     border-bottom: solid #757575 0.1px;
 }
 
+header, section{
+    /* outline: 10px solid green; */
+}
+
 header .container{
     display: flex;
     align-items: center;
