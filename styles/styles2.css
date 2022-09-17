@@ -167,6 +167,16 @@ main{
     margin-right: 30px;
     padding-bottom: 20px;
     margin-bottom: 30px;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.card-name{
+    margin-left: 24px;
+}
+
+.card-item{
+    margin-left: 24px;
 }
 
 
