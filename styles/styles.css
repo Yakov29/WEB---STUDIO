@@ -124,15 +124,10 @@ align-items: center;
 text-align: center;
 padding-top: 200px;
 padding-bottom: 200px;
-background-image: linear-gradient(to right, rgba(47,48,58,0.8), rgba(47,48,58,0.8)),url(../img/Img.hero.jpg);
+background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),url(../img/Img.hero.jpg);
 }
 
 
-.hero-section .container{
-    width: 1600px;
-    height: 600px;
-
-}
 
 .title{
     font-family: 'Roboto';
