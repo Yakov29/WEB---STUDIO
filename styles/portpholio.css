@@ -8,6 +8,8 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    /* outline: 10px solid red; */
+
 }
 
 header{
@@ -156,6 +158,8 @@ border: 1px solid #EEEEEE;
 
 .card-name{
     margin-left: 24px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .card-item{
@@ -179,7 +183,7 @@ height: 252px;
 
 footer .container{
     margin: 0;
-
+    margin-left: 215px;
 }
 
 
