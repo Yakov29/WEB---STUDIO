@@ -1,21 +1,4 @@
-body{
-    font-family: 'Roboto';
-}
 
-a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-p{
-    margin: 0;
-}
 
 /* header */
 
@@ -28,7 +11,7 @@ p{
 }
 
 header{
-    border-bottom: solid #757575 0.1px;
+    border-bottom: solid #ECECEC 0.1px;
 }
 
 header, section{
@@ -196,6 +179,7 @@ height: 252px;
 
 footer .container{
     margin: 0;
+
 }
 
 
@@ -232,5 +216,6 @@ margin-left: 215px;
     display: block;
     margin-left: 215px;
     margin-top: 9px;
+    color: #FFFFFF99;
 }
 

@@ -1,22 +1,4 @@
-body{
-    font-family: 'Roboto';
-    width: 1600px;
-}
 
-a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-p{
-    margin: 0;
-}
 
 /* header */
 
@@ -85,7 +67,7 @@ nav{
 
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14px;
 letter-spacing: 0.02em;
 color: #757575;
 margin-left: auto;
@@ -104,7 +86,7 @@ margin-left: auto;
 margin-left: 50px;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14px;
 letter-spacing: 0.02em;
 
 color: #757575;
@@ -134,7 +116,7 @@ background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36px;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 margin-bottom: 30px;
@@ -265,8 +247,7 @@ color: #212121;
 }
 
 .our-team .container{
-    width: 1170px;
-margin-left: 215px;
+align-items: center;
 }
 
 .card-list{
@@ -351,7 +332,7 @@ margin-left: 215px;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19px;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -362,5 +343,6 @@ margin-left: 215px;
     display: block;
     margin-left: 215px;
     margin-top: 9px;
+    color: #FFFFFF99;
 }
 
