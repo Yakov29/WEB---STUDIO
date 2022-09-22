@@ -304,12 +304,41 @@ text-align: center;
     margin-left: 10px;
 }
 
-.svg-item:hover{
-    background-color: #2196F3;
-}
-
 .svg-item:first-child{
     margin-left: 0;
+}
+
+.postiyni-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+color: #212121;
+}
+
+.postiyni-section{
+    background-color: #FFFFFF;
+    height: 364px;
+    padding-top: 94px;
+}
+
+.klients-list{
+    display: flex;
+
+}
+
+.klients-item{
+    border: #AFB1B8 1px solid;
+    padding-top: 20px;
+    width: 170px;
+    padding-bottom: 20.77px;
+    padding-left: 63px;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 30px;
 }
 
 /* footer */
