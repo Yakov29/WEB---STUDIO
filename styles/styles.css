@@ -8,6 +8,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    /* outline: solid 10px red; */
 }
 
 header, section{
@@ -220,7 +221,16 @@ h1,h2,h3,h4,h5{
 }
 
 .name-section-work{
-color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    
 }
 
 /* .name-section-team{
@@ -236,6 +246,19 @@ color: #212121;
     
     color: #212121;
     
+}
+
+.name-section-team{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
 }
 .our-team{
     text-align: center;
@@ -295,13 +318,12 @@ text-align: center;
 .svg-team{
     display: flex;
     width: 206px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 16px;
+    margin-left: 60px;
 }
 
 .svg-item{
-    margin-left: 10px;
+    margin-left: 22px;
 }
 
 .svg-item:first-child{
@@ -380,5 +402,36 @@ font-style: normal;
     display: block;
     margin-top: 9px;
     color: #FFFFFF99;
+}
+
+.svg-footer{
+    width: 206px;
+    margin: 0;
+}
+
+.svg-footer-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.footer-svg-list{
+    display: flex;
+}
+
+.footer-svg-item{
+    margin-left: 22px;
+}
+
+
+.footer-svg-item:first-child{
+    margin-left: 0;
 }
 

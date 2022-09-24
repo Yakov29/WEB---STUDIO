@@ -5,32 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="./styles/styles3.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css    ">
     <title>register</title>
 </head>
 <body>
     <main>
-        <div class="conteiner">
-    <a href="./index.html"><img src="img/close.png" alt="back"></a>
-    <h3>Залиште свої дані, ми Вам зателефонуємо</h3>
+        <div class="container">
+    <a class="close" href="./index.html"><svg width="18px" height="18px" >
+        <use
+        href="./img/symbol-defs.svg#icon-close"> 
+        </use>
+    </svg></a>
+    <h3 class="name-section">Залиште свої дані, ми Вам зателефонуємо</h3>
     <ul>
         <li>
             <p class="name">Ім’я</p>
             <input class="input" type="text">
-            <img src="img/person-black-18dp 1.png" alt="">
+            <svg width="12px" height="12px" >
+                <use
+                href="./img/symbol-defs.svg#icon-Vector"> 
+                </use>
+            </svg>
             
         </li>
         <li>
             <p class="name">Телефон</p>
             <input class="input" type="tel">
-            <img src="img/phone-black-18dp 1.png" alt="">
+            <svg width="12px" height="12px" >
+                <use
+                href="./img/symbol-defs.svg#icon-Vector-2"> 
+                </use>
+            </svg>
             
         </li>
         <li>
             <p class="name">Пошта</p>
             <input class="input" type="email">
-            <img src="img/Vector.png" alt="">
+            <svg width="12px" height="12px" >
+                <use
+                href="./img/symbol-defs.svg#icon-Vector-3"> 
+                </use>
+            </svg>
             
         </li>
         <li>
@@ -38,8 +55,7 @@
             <input class="coment" type="text">
         </li>
     </ul>
-    <input type="checkbox">
-    <p>Погоджуюсь з розсилкою і приймаю Умови договору</p>
+    <p class="check"> <input checked class="checkbox" type="checkbox"> Погоджуюсь з розсилкою і приймаю <a class="licens" href="./index.html">Умови договору</a></p>
     <a href="./"><button class="submit" type="submit">Надіслати</button></a>
     </div>
     </main>
