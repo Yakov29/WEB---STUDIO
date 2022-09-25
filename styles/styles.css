@@ -8,7 +8,6 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: solid 10px red; */
 }
 
 header, section{
@@ -61,10 +60,28 @@ nav{
     color: #2196F3;
 }
 
+.svg-header{
+    display: flex;
+    /* outline: 10px solid green; */
+    align-items: center;
+    margin-left: auto;
+}
+
+.svg-header-item{
+    height: 16px;
+}
+
+.svg-header-item:first-child{
+    margin-left: 0;
+}
+
+.icon-smartphone{
+margin-left: 30px;
+}
 
 .email{
 /* info@devstudio.com */
-
+margin-top: 0;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
@@ -83,12 +100,11 @@ margin-left: auto;
 /* +38 096 111 11 11 */
 
 
-margin-left: 50px;
+/* margin-left: 50px; */
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #757575;
 
 }
@@ -136,10 +152,7 @@ color: #FFFFFF;
 border: #2196F3;
 width: 200px;
 height: 50px;
-
-
 }
-
 
 
 .delo-section{
@@ -407,6 +420,9 @@ font-style: normal;
 .svg-footer{
     width: 206px;
     margin: 0;
+    display: block;
+    margin-left: 70px;
+    margin-top: 15px;
 }
 
 .svg-footer-name{
@@ -417,7 +433,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
+margin-bottom: 20px;
 color: #FFFFFF;
 
 }
@@ -425,6 +441,7 @@ color: #FFFFFF;
 .footer-svg-list{
     display: flex;
 }
+
 
 .footer-svg-item{
     margin-left: 22px;
@@ -434,4 +451,10 @@ color: #FFFFFF;
 .footer-svg-item:first-child{
     margin-left: 0;
 }
+
+.footer .container{
+    display: flex;
+}
+
+
 
