@@ -462,8 +462,12 @@ color: #FFFFFF;
 
 .footer-svg-item{
     margin-left: 22px;
+    fill: #AFB1B8;
 }
 
+.footer-svg-item:hover{
+    fill: #2196F3;
+}
 
 .footer-svg-item:first-child{
     margin-left: 0;
@@ -472,6 +476,4 @@ color: #FFFFFF;
 .footer .container{
     display: flex;
 }
-
-
 
