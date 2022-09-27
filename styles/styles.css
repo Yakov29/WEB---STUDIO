@@ -8,6 +8,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    /* outline: green 10px solid; */
 }
 
 header, section{
@@ -65,14 +66,21 @@ nav{
     /* outline: 10px solid green; */
     align-items: center;
     margin-left: auto;
+    fill: currentColor;
 }
 
 .svg-header-item{
     height: 16px;
+    align-items: center;
 }
 
 .svg-header-item:first-child{
     margin-left: 0;
+}
+
+.contact-text{
+    color: currentColor;
+    margin-left: 10px;
 }
 
 .icon-smartphone{
@@ -88,6 +96,8 @@ line-height: 1.14px;
 letter-spacing: 0.02em;
 color: #757575;
 margin-left: auto;
+align-items: center;
+display: flex;
 
 
 }
@@ -110,6 +120,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
+display: flex;
+align-items: center;
 
 }
 
@@ -138,7 +150,6 @@ line-height: 1.36px;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 margin-bottom: 30px;
-
 color: #FFFFFF;
 
 
@@ -157,8 +168,6 @@ width: 200px;
 height: 50px;
 margin-top: 30px;
 }
-
-
 
 
 
@@ -338,16 +347,22 @@ text-align: center;
 .svg-team{
     display: flex;
     margin-top: 16px;
-    margin-left: 60px;
+    margin-left: 32px;
 }
 
 .svg-item{
-    margin-left: 22px;
+    margin-left: 10px;
     fill: #AFB1B8;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
 }
 
 .svg-item:hover{
-    fill: #2196F3;
+    fill: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .svg-item:first-child{
@@ -461,12 +476,18 @@ color: #FFFFFF;
 
 
 .footer-svg-item{
-    margin-left: 22px;
-    fill: #AFB1B8;
+    margin-left: 10px;
+    fill: #FFFFFF;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    padding: 12px;
 }
 
 .footer-svg-item:hover{
-    fill: #2196F3;
+    fill: #FFFFFF;
+    background: #2196F3;
 }
 
 .footer-svg-item:first-child{

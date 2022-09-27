@@ -1,97 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="styles/portpholio.css">
-    <link rel="stylesheet" href="styles/reset.css">
-    <title>Портфолио</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="styles/portpholio.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <title>Портфоліо</title>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <nav>
-        <a class="header-logo" href="./index.html">
+      <div class="container">
+        <nav>
+          <a class="header-logo" href="./index.html">
             <span>Web</span>Studio
-        </a>
-        
-            <ul class="list-header">
+          </a>
+
+          <ul class="list-header">
             <li class="nav-item">
-               <a class="nav-list" href="./index.html">Студія</a>
+              <a class="nav-list" href="./index.html">Студія</a>
             </li>
             <li class="nav-item">
-              <a class="nav-list" href="./portfholio.html">Портфоліо</a> 
-              </li>
-            <li class="nav-item">
-               <a class="nav-list" href="./register.html">Контакти</a> 
+              <a class="nav-list" href="./portfholio.html">Портфоліо</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-list" href="./register.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="svg-header">
+          <li class="svg-header-item">
+            <a class="email" href="mailto:info@devstudio.com"
+              ><svg class="icon-envelope-hover" width="20px" height="20px">
+                <use
+                  href="./img/symbol-defs.svg#icon-envelope-hover"
+                ></use></svg>
+        <span class="contact-text">info@devstudio.com</span></a
+            >
+          </li>
+          <li class="svg-header-item">
+            <a class="tel" href="tel:+380961111111"
+              ><svg class="icon-smartphone" width="20px" height="20px">
+                <use href="./img/symbol-defs.svg#icon-smartphone"></use></svg>
+              <span class="contact-text">+38 096 111 11 11</span></a
+            >
+          </li>
         </ul>
-    </nav>
-            <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a> 
-            </div>
+      </div>
     </header>
     <div class="line"></div>
     <!-- Main -->
     <main>
-    <section class="button-section">
+      <section class="button-section">
         <div class="container">
-        <ul class="button-list">
+          <ul class="button-list">
             <li class="list-item"><button class="button-nav">Усе</button></li>
-            <li class="list-item"><button class="button-nav">Веб-сайти</button></li>
-            <li class="list-item"><button class="button-nav">Застосунки</button></li>
-            <li class="list-item"><button class="button-nav">Дизайн</button></li>
-            <li class="list-item"><button class="button-nav">Маркетинг</button></li>
-            </ul>
-            </div>
-    </section>
-            <section class="main-section">
-                <div class="conteiner">
-                    <ul class="main-list">
-                        <li class="main-item"><img src="img/trxhorzr.png" alt="Технокряк">
-                            <h3 class="card-name">Технокряк</h3>
-                            <p class="card-item">Веб-сайт</p></li>
-                        <li class="main-item"><img src="img/poster.png" alt="Постер New Orlean vs Golden Star">
-                            <h3 class="card-name">Постер New Orlean vs Golden Star</h3>
-                            <p class="card-item">Дизайн</p></li>
-                        <li class="main-item"><img src="img/reztor.png" alt="Ресторан Seafood">
-                            <h3 class="card-name">Ресторан Seafood</h3>
-                            <p class="card-item">Застосунок</p></li>
-                        <li class="main-item"><img src="img/prime.png" alt="Проект Prime">
-                            <h3 class="card-name">Проект Prime</h3>
-                            <p class="card-item">Маркетинг</p></li>
-                        <li class="main-item"> <img src="img/boxes.png" alt="Проект Boxes">
-                            <h3 class="card-name">Проект Boxes</h3>
-                            <p class="card-item">Застосунок</p></li>
-                        <li class="main-item"><img src="img/inspiration.png" alt="Inspiration has no Borders">
-                            <h3 class="card-name">Inspiration has no Borders</h3>
-                            <p class="card-item">Веб-сайт</p></li>
-                        <li class="main-item"><img src="img/vidav.png" alt="Видавництво Limited Edition">
-                            <h3 class="card-name">Видавництво Limited Edition</h3>
-                            <p class="card-item">Дизайн</p></li>
-                        <li class="main-item"><img src="img/lab.png" alt="Проект LAB">
-                            <h3 class="card-name">Проект LAB</h3>
-                            <p class="card-item">Маркетинг</p></li>
-                        <li class="main-item"><img src="img/groving.png" alt="Growing Business">
-                                <h3 class="card-name">Growing Business</h3>
-                                <p class="card-item">Застосунок</p></li>
-                                </ul>
-                                </div>
-                </section>
-                </main>
-            <!-- Footer -->
-    <footer>
-        <div class="container">
-        <a class="footer-logo" href="./index.html">
-        <span>Web</span>Studio
-        </a>
-        <address>м. Київ пр-т Лесі Українки, 26</address>
-        <a class="footer-item" href="mailto:info@example.com">info@example.com</a>
-        <a class="footer-item" href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="list-item">
+              <button class="button-nav">Веб-сайти</button>
+            </li>
+            <li class="list-item">
+              <button class="button-nav">Застосунки</button>
+            </li>
+            <li class="list-item">
+              <button class="button-nav">Дизайн</button>
+            </li>
+            <li class="list-item">
+              <button class="button-nav">Маркетинг</button>
+            </li>
+          </ul>
         </div>
+      </section>
+      <section class="main-section">
+        <div class="conteiner">
+          <ul class="main-list">
+            <li class="main-item">
+              <img src="img/trxhorzr.png" alt="Технокряк" />
+              <h3 class="card-name">Технокряк</h3>
+              <p class="card-item">Веб-сайт</p>
+            </li>
+            <li class="main-item">
+              <img
+                src="img/poster.png"
+                alt="Постер New Orlean vs Golden Star"
+              />
+              <h3 class="card-name">Постер New Orlean vs Golden Star</h3>
+              <p class="card-item">Дизайн</p>
+            </li>
+            <li class="main-item">
+              <img src="img/reztor.png" alt="Ресторан Seafood" />
+              <h3 class="card-name">Ресторан Seafood</h3>
+              <p class="card-item">Застосунок</p>
+            </li>
+            <li class="main-item">
+              <img src="img/prime.png" alt="Проект Prime" />
+              <h3 class="card-name">Проект Prime</h3>
+              <p class="card-item">Маркетинг</p>
+            </li>
+            <li class="main-item">
+              <img src="img/boxes.png" alt="Проект Boxes" />
+              <h3 class="card-name">Проект Boxes</h3>
+              <p class="card-item">Застосунок</p>
+            </li>
+            <li class="main-item">
+              <img src="img/inspiration.png" alt="Inspiration has no Borders" />
+              <h3 class="card-name">Inspiration has no Borders</h3>
+              <p class="card-item">Веб-сайт</p>
+            </li>
+            <li class="main-item">
+              <img src="img/vidav.png" alt="Видавництво Limited Edition" />
+              <h3 class="card-name">Видавництво Limited Edition</h3>
+              <p class="card-item">Дизайн</p>
+            </li>
+            <li class="main-item">
+              <img src="img/lab.png" alt="Проект LAB" />
+              <h3 class="card-name">Проект LAB</h3>
+              <p class="card-item">Маркетинг</p>
+            </li>
+            <li class="main-item">
+              <img src="img/groving.png" alt="Growing Business" />
+              <h3 class="card-name">Growing Business</h3>
+              <p class="card-item">Застосунок</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <a class="footer-logo" href="./"> <span>Web</span>Studio </a>
+          <address>м. Київ, пр-т Лесі Українки, 26</address>
+          <a class="footer-item" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="footer-item" href="tel:+38096111111">+38 096 111 11 11</a>
+        </div>
+        <div class="svg-footer">
+          <h4 class="svg-footer-name">Приєднуйтесь</h4>
+          <ul class="footer-svg-list">
+            <li class="footer-svg-item">
+              <svg width="20px" height="20px">
+                <use href="./img/symbol-defs.svg#icon-instagram-2"></use>
+              </svg>
+            </li>
+            <li class="footer-svg-item">
+              <svg width="20px" height="20px">
+                <use href="./img/symbol-defs.svg#icon-twitter-1"></use>
+              </svg>
+            </li>
+            <li class="footer-svg-item">
+              <svg width="20px" height="20px">
+                <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
+              </svg>
+            </li>
+            <li class="footer-svg-item">
+              <svg width="20px" height="20px">
+                <use href="./img/symbol-defs.svg#icon-linkedin-1"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

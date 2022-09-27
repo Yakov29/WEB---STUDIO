@@ -65,15 +65,43 @@ nav{
 }
 
 
+.svg-header{
+    display: flex;
+    /* outline: 10px solid green; */
+    align-items: center;
+    margin-left: auto;
+    fill: currentColor;
+}
+
+.svg-header-item{
+    height: 16px;
+    align-items: center;
+}
+
+.svg-header-item:first-child{
+    margin-left: 0;
+}
+
+.contact-text{
+    color: currentColor;
+    margin-left: 10px;
+}
+
+.icon-smartphone{
+margin-left: 30px;
+}
+
 .email{
 /* info@devstudio.com */
-
+margin-top: 0;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14px;
 letter-spacing: 0.02em;
 color: #757575;
 margin-left: auto;
+align-items: center;
+display: flex;
 
 
 }
@@ -82,22 +110,26 @@ margin-left: auto;
     color: #2196F3;
 }
 
+.svg-header-item:hover{
+  fill: #2196F3;
+}
+
 .tel{
 /* +38 096 111 11 11 */
 
 
-margin-left: 50px;
+/* margin-left: 50px; */
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #757575;
-
+align-items: center;
+display: flex;
 }
 
 .tel:hover{
-    color: #2196F3;
+    color: #2196F3; 
 }
 
 
@@ -155,6 +187,10 @@ main{
 border: 1px solid #EEEEEE;
 }
 
+.main-item:hover{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.12), 4px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .card-name{
     margin-left: 24px;
     margin-bottom: 10px;
@@ -163,6 +199,7 @@ border: 1px solid #EEEEEE;
 
 .card-item{
     margin-left: 24px;
+    color: #757575;
 }
 
 
@@ -173,7 +210,7 @@ border: 1px solid #EEEEEE;
 
 /* footer */
 
-footer{
+.footer{
     padding-top: 60px;
 background: #2F303A;
 height: 252px;
@@ -209,5 +246,54 @@ font-style: normal;
     display: block;
     margin-top: 9px;
     color: #FFFFFF99;
+}
+
+.svg-footer{
+    width: 206px;
+    margin: 0;
+    display: block;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.svg-footer-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #FFFFFF;
+
+}
+
+.footer-svg-list{
+    display: flex;
+}
+
+
+.footer-svg-item{
+    margin-left: 10px;
+    fill: #FFFFFF;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+}
+
+.footer-svg-item:hover{
+    fill: #FFFFFF;
+    background: #2196F3;
+}
+
+.footer-svg-item:first-child{
+    margin-left: 0;
+}
+
+.footer .container{
+    display: flex;
 }
 
