@@ -185,6 +185,7 @@ margin-top: 30px;
  .delo-item{
     color: white;
     margin-right: 30px;
+    position: relative;
  }
 
  .delo-item:last-child{
@@ -289,6 +290,33 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
+
+.div-name-box{
+    background: rgba(47, 48, 58, 0.8);
+    width: 370px;
+height: 70px;
+align-items: center;
+display: flex;
+position: absolute;
+top: 224px;
+}
+
+.div-description-box{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-right: auto;
+margin-left: auto;
+color: #FFFFFF;
+
+}
+
+
 .our-team{
     text-align: center;
     background: #F5F4FA;
