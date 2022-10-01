@@ -59,6 +59,8 @@ nav{
 
 .nav-list:hover{
     color: #2196F3;
+        -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .svg-header{
@@ -104,10 +106,14 @@ display: flex;
 
 .email:hover{
     color: #2196F3;
+        -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .svg-header-item:hover{
   fill: #2196F3;
+      /* -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 }
 
 .tel{
@@ -127,11 +133,13 @@ align-items: center;
 
 .tel:hover{
     color: #2196F3; 
+    
 }
 
 /* main */
 
 .hero-section{
+    height: 600px;
 align-items: center;
 text-align: center;
 padding-top: 200px;
@@ -155,9 +163,6 @@ color: #FFFFFF;
 
 }
 
-
-
-
 .title-button{
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -168,8 +173,6 @@ width: 200px;
 height: 50px;
 margin-top: 30px;
 }
-
-
 
 .delo-section{
     padding-bottom: 94px;
@@ -391,6 +394,7 @@ text-align: center;
 .svg-item:hover{
     fill: #FFFFFF;
     background-color: #2196F3;
+    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-item:first-child{
@@ -434,6 +438,7 @@ color: #212121;
 .klients-item:hover{
     border: #2196F3 1px solid;
     fill: #2196F3;
+    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -516,7 +521,9 @@ color: #FFFFFF;
 .footer-svg-item:hover{
     fill: #FFFFFF;
     background: #2196F3;
+    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .footer-svg-item:first-child{
     margin-left: 0;

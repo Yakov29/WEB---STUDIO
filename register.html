@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css    ">
-    <title>register</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css    "
+    />
+    <link rel="icon" href="/img/w.svg">
+    <title>Регістрація</title>
+  </head>
+  <body>
     <main>
-        <div class="container">
-    <a class="close" href="./index.html"><svg width="18px" height="18px" >
-        <use
-        href="./img/symbol-defs.svg#icon-close"> 
-        </use>
-    </svg></a>
-    <h3 class="name-section">Залиште свої дані, ми Вам зателефонуємо</h3>
-    <ul>
-        <li>
+      <div class="container">
+        <a class="close" href="./index.html"
+          ><svg width="18px" height="18px">
+            <use href="./img/symbol-defs.svg#icon-Vector-close"></use></svg>
+        </a>
+        <h3 class="name-section">Залиште свої дані, ми Вам зателефонуємо</h3>
+        <ul>
+          <li class="item">
             <p class="name">Ім’я</p>
-            <input class="input" type="text">
-            <svg width="12px" height="12px" >
-                <use
-                href="./img/symbol-defs.svg#icon-Vector"> 
-                </use>
+            <input style="padding-left: 27px;"  class="input" type="text" />
+            <svg class="svg-icon" width="12px" height="12px">
+              <use href="./img/symbol-defs.svg#icon-Vector"></use>
             </svg>
-            
-        </li>
-        <li>
+          </li>
+          <li class="item">
             <p class="name">Телефон</p>
-            <input class="input" type="tel">
-            <svg width="12px" height="12px" >
-                <use
-                href="./img/symbol-defs.svg#icon-Vector-2"> 
-                </use>
+            <input style="padding-left: 27px;"  class="input" type="tel" />
+            <svg class="svg-icon" width="12px" height="12px">
+              <use href="./img/symbol-defs.svg#icon-Vector-2"></use>
             </svg>
-            
-        </li>
-        <li>
+          </li>
+          <li class="item">
             <p class="name">Пошта</p>
-            <input class="input" type="email">
-            <svg width="12px" height="12px" >
-                <use
-                href="./img/symbol-defs.svg#icon-Vector-3"> 
-                </use>
+            <input style="padding-left: 27px;"  class="input" type="email" />
+            <svg class="svg-icon" width="12px" height="12px">
+              <use href="./img/symbol-defs.svg#icon-Vector-3"></use>
             </svg>
-            
-        </li>
-        <li>
+          </li>
+          <li class="item">
             <p class="name">Коментарі</p>
-            <input class="coment" type="text">
-        </li>
-    </ul>
-    <p class="check"> <input checked class="checkbox" type="checkbox"> Погоджуюсь з розсилкою і приймаю <a class="licens" href="./index.html">Умови договору</a></p>
-    <a href="./"><button class="submit" type="submit">Надіслати</button></a>
-    </div>
+            <input style="padding-left: 12px;" placeholder="Введите текст" class="coment" type="text" />
+          </li>
+        </ul>
+        <p class="check">
+          <input checked class="checkbox" type="checkbox" /> Погоджуюсь з
+          розсилкою і приймаю
+          <a class="licens" href="./index.html">Умови договору</a>
+        </p>
+        <a href="./"><button class="submit" type="submit">Надіслати</button></a>
+      </div>
     </main>
-    
-</body>
+  </body>
 </html>
