@@ -210,7 +210,7 @@ margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.main-item:nth-child(1)::before{
+/* .main-item:nth-child(1)::before{
     background-image: url("../img/Group.jpg");
 }
 
@@ -225,7 +225,9 @@ margin-top: 30px;
 
 .main-item:nth-child(4)::before{
     background-image: url("../img/astronaut1.jpg");
-}
+} */
+
+
 
  .main-list{
     display: flex;
@@ -233,6 +235,14 @@ margin-top: 30px;
 .main-item{
     width: 270px;
 margin-left: 30px;
+position: relative;
+border-radius: 4px;
+}
+
+.svg-feathers{
+    position: absolute;
+    top: 25px;
+    left: 100px;
 }
 
 .main-item:first-child{
@@ -389,6 +399,13 @@ text-align: center;
     width: 44px;
     height: 44px;
     padding: 12px;
+    position: relative;
+    
+}
+.svg-boxer{
+    position: absolute;
+    top: 25px;
+    left: 100px;
     
 }
 
