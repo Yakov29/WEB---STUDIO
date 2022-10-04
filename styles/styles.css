@@ -1,4 +1,6 @@
-
+body{
+    padding-top: 80px;
+}
 
 /* header */
 
@@ -11,6 +13,7 @@
     /* outline: green 10px solid; */
 }
 
+
 header, section{
     /* outline: 10px solid green; */
 }
@@ -20,6 +23,16 @@ header .container{
     align-items: center;
     height: 80px;
     
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    z-index: 2;
+border-bottom: solid #ECECEC 0.1px;
 }
 
    .header-logo{

@@ -1,4 +1,6 @@
-
+body{
+    padding-top: 80px;
+}
 
 /* header */
 
@@ -13,7 +15,14 @@
 
 header{
     border-bottom: solid #ECECEC 0.1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    z-index: 2;
 }
+
 
 header, section{
     /* outline: 10px solid green; */
