@@ -1,6 +1,6 @@
-body{
-    padding-top: 80px;
-}
+/* body{
+    
+} */
 
 /* header */
 
@@ -15,7 +15,7 @@ body{
 
 header{
     border-bottom: solid #ECECEC 0.1px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     background-color: #FFFFFF;
