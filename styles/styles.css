@@ -72,7 +72,7 @@ nav{
 
 .nav-list:hover{
     color: #2196F3;
-        -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -119,7 +119,7 @@ display: flex;
 
 .email:hover{
     color: #2196F3;
-        -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -425,7 +425,7 @@ text-align: center;
 .svg-item:hover{
     fill: #FFFFFF;
     background-color: #2196F3;
-    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-item:first-child{
@@ -469,7 +469,7 @@ color: #212121;
 .klients-item:hover{
     border: #2196F3 1px solid;
     fill: #2196F3;
-    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -552,7 +552,7 @@ color: #FFFFFF;
 .footer-svg-item:hover{
     fill: #FFFFFF;
     background: #2196F3;
-    -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -604,7 +604,7 @@ fill: #000000;
 .close:hover{
     fill: #2196F3;
     border: 1px solid #2196F3;
-         -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -639,7 +639,7 @@ color: #757575;
 
 .name:hover{
     color: #2196F3;
-     -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input{
@@ -653,7 +653,7 @@ margin-bottom: 10px;
 
 .input:hover{
     border: #2196F3 1px solid;
-     -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .coment{
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -665,7 +665,7 @@ padding-bottom: 15%;
 
 .coment:hover{
     border: #2196F3 1px solid;
-     -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox{
@@ -703,7 +703,7 @@ margin-right: auto;
 
 .submit:hover{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.12), 4px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-        -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 500ms cubic-bezier(0.4, 0, 0.2, 1);
+       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
