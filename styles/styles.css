@@ -722,3 +722,40 @@ margin-right: auto;
 .svg-icon:hover{
     fill: #2196F3;
 }
+
+.subgred{
+    position: relative;
+    margin-left: 70px;
+    top: 0;
+    margin-left: 70px;
+}
+
+.email-footer-subgred{
+    background: #2F303A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+width: 450px;
+height: 50px;
+border: #757575 1px solid;
+border-radius: 4px;
+padding-left: 17.32px;
+color: #AFB1B8;
+}
+
+.footer-submit{
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 50px;
+border-radius: 4px;
+border: #2196F3 1px solid;
+color: #F5F4FA;
+align-items: center;
+position: absolute;
+margin-left: 12px;
+}
+
+.footer-subgred-svg{
+    fill: #F5F4FA;
+    margin-left: 12.61px;
+    margin-top: 13px;
+}
