@@ -651,9 +651,10 @@ margin-top: 4px;
 margin-bottom: 10px;
 }
 
-.input:hover{
+.input:hover.svg-item.submit{
     border: #2196F3 1px solid;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #219;
 }
 .coment{
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -710,7 +711,22 @@ margin-right: auto;
 .item{
     position: relative;
 }
+.item:hover .name{
+    color: #2196F3;
+       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.item:hover .svg-icon{
+    fill: #2196F3;
+       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.item:hover .input{
+    border: #2196F3 1px solid;
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .svg-icon{
     position: absolute;
@@ -721,12 +737,15 @@ margin-right: auto;
 
 .svg-icon:hover{
     fill: #2196F3;
+    transform: rotateZ(0deg);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+     
 }
 
 .subgred{
     position: relative;
     margin-left: 70px;
-    top: 0;
+    transform: translateY(-40%);
     margin-left: 70px;
 }
 
@@ -752,10 +771,21 @@ color: #F5F4FA;
 align-items: center;
 position: absolute;
 margin-left: 12px;
+
+}
+
+.subgred-div-butteon{
+    display: flex;
+    
 }
 
 .footer-subgred-svg{
     fill: #F5F4FA;
     margin-left: 12.61px;
-    margin-top: 13px;
+    margin-top: 6px;
+}
+
+.subgred-name{
+    margin-top: 10px;
+    margin-left: 29px;
 }
