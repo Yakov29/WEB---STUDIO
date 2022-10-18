@@ -10,7 +10,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: green 10px solid;
+    /* outline: green 10px solid; */
 }
 
 
@@ -185,6 +185,11 @@ border: #2196F3;
 width: 200px;
 height: 50px;
 margin-top: 30px;
+}
+
+.title-button:hover{
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.86), 4px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .delo-section{
@@ -414,11 +419,13 @@ text-align: center;
     padding: 12px;
     position: relative;
     
+    
 }
 .svg-boxer{
     position: absolute;
     top: 25px;
     left: 100px;
+    transform: rotate(0deg);
     
 }
 
@@ -426,6 +433,8 @@ text-align: center;
     fill: #FFFFFF;
     background-color: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform :rotate(180deg);
+    /* transform :scale(1.1, 1.1); */
 }
 
 .svg-item:first-child{
@@ -464,12 +473,14 @@ color: #212121;
     border-radius: 4px 4px 4px 4px;
     margin-left: 30px;
     fill: #AFB1B8;
+    transform: scale(1, 1);
 }
 
 .klients-item:hover{
     border: #2196F3 1px solid;
     fill: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1.1, 1.1);
 }
 
 /* footer */
@@ -553,6 +564,7 @@ color: #FFFFFF;
     fill: #FFFFFF;
     background: #2196F3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 200ms cubic-bezier(0.4, 0, 0.2, 1);
+     transform :rotate(180deg);
 }
 
 
@@ -784,6 +796,7 @@ border: #757575 1px solid;
 border-radius: 4px;
 padding-left: 17.32px;
 color: #AFB1B8;
+transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .email-footer-subgred:hover{
@@ -791,6 +804,7 @@ color: #AFB1B8;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 300ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 100px;
     padding-bottom: 60px;
+
 }
 
 
