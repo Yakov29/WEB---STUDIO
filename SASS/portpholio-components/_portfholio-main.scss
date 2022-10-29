@@ -1,0 +1,88 @@
+.button-list__main{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button-list__element{
+    width: 130px;
+height: 38px;
+background: $read-white-color;
+border-radius: 4px;
+border: $second-recolor;
+color: #212121;
+        box-shadow: 1px 1px 1px rgb(255, 255, 255), 4px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.button-list__item{
+    margin-right: 8px;
+}
+
+.button-list__item:last-child{
+    margin-right: 0;
+
+}
+
+
+.button-list__element:hover{
+    background: $hover-color;
+    color: $read-white-color;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.12), 4px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+transform: rotate(360deg);
+    
+}
+
+.main{
+    padding-top: 94px;
+}
+
+.main-section{
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+
+.card-main__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-main__item{
+    margin-right: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+position: relative;
+overflow: hidden;
+border-radius: 8px;
+transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.card-main__item:hover{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px 4px 4px 4px;
+        transform: scale(1.1, 1.1);
+
+}
+
+.card-main__name{
+    margin-left: 24px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.card-main__card-item{
+    margin-left: 24px;
+    color: $second-recolor;
+}
+
+
+.card-main__card-item:nth-child(3n){
+    margin-right: 0;
+}
