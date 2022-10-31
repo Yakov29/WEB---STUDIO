@@ -1,0 +1,39 @@
+.delo-section{
+    padding-bottom: 94px;
+    text-align: center;
+}
+
+
+ .delo-list-main{
+    display: flex;
+    margin-top: 50px;
+ }
+
+ .delo-list-item{
+    color: white;
+    margin-right: 30px;
+    position: relative;
+ }
+
+ .delo-item:last-child{
+    margin-right: 0;
+ }
+
+
+
+.name-section-work{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: $text-color;
+    
+}
+
+/* .name-section-team{
+} */
+

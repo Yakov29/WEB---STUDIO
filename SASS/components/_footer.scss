@@ -58,12 +58,12 @@ color: #FFFFFF;
 
 }
 
-.svg-list__footer{
+.svg-list-footer{
     display: flex;
 }
 
 
-.svg-list__item{
+.svg-list-item{
     margin-left: 10px;
     fill: #FFFFFF;
     border-radius: 50%;
@@ -74,7 +74,7 @@ color: #FFFFFF;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-list__item:hover{
+.svg-list-item:hover{
     fill: #FFFFFF;
     background: $hover-color;
      transform :rotate(180deg);
@@ -331,7 +331,20 @@ border: $hover-color 1px solid;
 color: #F5F4FA;
 align-items: center;
 position: absolute;
-margin-left: 12px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
 
 }
 
@@ -359,6 +372,6 @@ margin-left: 12px;
 } */
 
 .subgred-name{
-    margin-top: 10px;
+    // margin-top: 10px;
     margin-left: 29px;
 }
