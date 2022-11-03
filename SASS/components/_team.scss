@@ -70,7 +70,35 @@ align-items: center;
     margin-right: 0;
 }
 
+.our-team__name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
 
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+margin-top: 30px;
+}
+
+.our-team__description{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 10px;
+color: #757575;
+
+}
 
 .card-list-name{
 font-weight: 500;
