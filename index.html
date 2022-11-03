@@ -23,27 +23,27 @@
             <span>Web</span>Studio
           </a>
           <ul class="navigation-list">
-            <li class="navigation-list-item">
-              <a class="navigation-list-link" href="./index.html">Студія</a>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link" href="./index.html">Студія</a>
             </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link" href="./portfholio.html">Портфоліо</a>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link" href="./portfholio.html">Портфоліо</a>
             </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link" href="./">Контакти</a>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link" href="./">Контакти</a>
             </li>
           </ul>
            <div class="line-nav-list"></div>
         </nav>
-        <ul class="svg-links-header">
-            <li class="svg-links-item">
-             <a class="email-link" href="mailto:info@devstudio.com"><svg class="icon-envelope-hover" width="16px" height="16px">
+        <ul class="header-contacts">
+            <li class="header-contacts__item">
+             <a class="header-contacts__link" href="mailto:info@devstudio.com"><svg class="header-contacts__icon" width="16px" height="16px">
                 <use href="./img/symbol-defs.svg#icon-envelope-hover"></use>
-              </svg><span class="contact-text">info@devstudio.com</span></a></li>
-             <li class="svg-links-item">
-             <a class="tel-link" href="tel:+380961111111"><svg class="icon-smartphone" width="16px" height="16px">
+              </svg><span class="header-contacts__text">info@devstudio.com</span></a></li>
+             <li class="header-contacts__item">
+             <a class="header-contacts__link" href="tel:+380961111111"><svg class="header-contacts__icon" width="16px" height="16px">
                 <use href="./img/symbol-defs.svg#icon-smartphone"></use>
-              </svg><span class="contact-text">+38 096 111 11 11</span></a></li>
+              </svg><span class="header-contacts__text">+38 096 111 11 11</span></a></li>
          </ul>
     </header>
     <!-- Main -->
@@ -51,8 +51,8 @@
       <!-- ЕФЕКТИВНІ РІШЕННЯ -->
       <section class="hero-section">
         <div class="container">
-          <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button class="title-button" data-open-modal>Замовити послугу</button>
+          <h1 class="hero-section__title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+          <button class="hero-section__button" data-open-modal>Замовити послугу</button>
         </div>
         <div data-backdrop class="backdrop is-hidden">
           <form class="modal">
@@ -98,45 +98,45 @@
       <!-- Список карточок -->
       <section class="text-section">
         <div class="container">
-          <h2 class="name-section" hidden>Feachers</h2>
-          <ul class="main-list">
-            <li class="main-item">
+          <h2 class="text-section" hidden>Feachers</h2>
+          <ul class="text-section__list">
+            <li class="text-section__item">
               <svg class="svg-boxer" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#icon-Group"></use>
                   </svg>
-              <h3 class="block-name">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="child-item">
+              <h3 class="text-section__name">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="text-section__discription">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptatem veritatis exercitationem velit magnam iure.
               </p>
             </li>
-            <li class="main-item">
+            <li class="text-section__item">
               <svg class="svg-boxer" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#icon-clock-1"></use>
                   </svg>
-              <h3 class="block-name">Пунктуальність</h3>
-              <p class="child-item">
+              <h3 class="text-section__name">ПУНКТУАЦІЯ</h3>
+              <p class="text-section__discription">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptatem veritatis exercitationem velit magnam iure.
               </p>
             </li>
-            <li class="main-item">
+            <li class="text-section__item">
               <div class="sqash-imge"></div>
                <svg class="svg-boxer" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#icon-diagram-1"></use>
                   </svg>
-              <h3 class="block-name">ПЛАНУВАННЯ</h3>
-              <p class="child-item">
+              <h3 class="text-section__name">ПЛАНУВАННЯ</h3>
+              <p class="text-section__discription">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptatem veritatis exercitationem velit magnam iure.
               </p>
             </li>
-            <li class="main-item">
+            <li class="text-section__item">
                <svg class="svg-boxer" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#icon-astronaut-1"></use>
                   </svg>
-              <h3 class="block-name">СУЧАСНІ ТЕХНОЛОГії</h3>
-              <p class="child-item">
+              <h3 class="text-section__name">СУЧАСНІ ТЕХНОЛОГії</h3>
+              <p class="text-section__discription">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptatem veritatis exercitationem velit magnam iure.
               </p>
@@ -148,16 +148,16 @@
       <section class="delo-section">
         <div class="container">
           <h2 class="name-section-work">Чим ми займаємося</h2>
-          <ul class="delo-list-main">
-            <li class="delo-list-item">
+          <ul class="delo-section__list">
+            <li class="delo-section__item">
               <img src="img/box1.png" alt="box1" />
               <div class="div-name-box"><p class="div-description-box">ДЕСКТОПНІ ЗАСТОСУНКИ</p></div>
             </li>
-            <li class="delo-list-item">
+            <li class="delo-section__item">
               <img src="img/box2.png" alt="box2" />
               <div class="div-name-box"><p class="div-description-box">МОБІЛЬНІ ЗАСТОСУНКИ</p></div>
             </li>
-            <li class="delo-list-item">
+            <li class="delo-section__item">
               <img src="img/box3.png" alt="box3" />
               <div class="div-name-box"><p class="div-description-box">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p></div>
             </li>
@@ -168,16 +168,16 @@
       <section class="our-team">
         <div class="container">
           <h2 class="name-section-team">Наша команда</h2>
-          <ul class="card-list-main">
-            <li class="card-list-item">
+          <ul class="our-team__list">
+            <li class="our-team__item">
               <img
                 src="img/taras.png"
                 alt="Ігор Дем’яненко"
                 width="270"
                 height="260"
               />
-              <h3 class="card-list-name">Ігор Дем’яненко</h3>
-              <p class="card-list-discription">Product Designer</p>
+              <h3 class="our-team__name">Ігор Дем’яненко</h3>
+              <p class="our-team__description">Product Designer</p>
               <ul class="svg-team">
                 <li class="svg-item">
                   <svg width="20px" height="20px">
@@ -201,15 +201,15 @@
                 </li>
               </ul>
             </li>
-            <li class="card-list-item">
+            <li class="our-team__item">
               <img
                 src="img/img.jpg"
                 alt="Ольга Репіна"
                 width="270"
                 height="260"
               />
-              <h3 class="card-list-name">Ольга Репіна</h3>
-              <p class="card-list-discription">Frontend Developer</p>
+              <h3 class="our-team__name">Ольга Репіна</h3>
+              <p class="our-team__description">Frontend Developer</p>
               <ul class="svg-team">
                 <li class="svg-item">
                   <svg width="20px" height="20px">
@@ -233,15 +233,15 @@
                 </li>
               </ul>
             </li>
-            <li class="card-list-item">
+            <li class="our-team__item">
               <img
                 src="img/img.png"
                 alt="Микола Тарасов"
                 width="270"
                 height="260"
               />
-              <h3 class="card-list-name">Микола Тарасов</h3>
-              <p class="card-list-discription">Marketing</p>
+              <h3 class="our-team__name">Микола Тарасов</h3>
+              <p class="our-team__description">Marketing</p>
               <ul class="svg-team">
                 <li class="svg-item">
                   <svg width="20px" height="20px">
@@ -265,15 +265,15 @@
                 </li>
               </ul>
             </li>
-            <li class="card-list-item">
+            <li class="our-team__item">
               <img
                 src="img/img-.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
                 height="260"
               />
-              <h3 class="card-list-name">Михайло Єрмаков</h3>
-              <p class="card-list-discription">UI Designer</p>
+              <h3 class="our-team__name">Михайло Єрмаков</h3>
+              <p class="our-team__description">UI Designer</p>
               <ul class="svg-team">
                 <li class="svg-item">
                   <svg width="20px" height="20px">
