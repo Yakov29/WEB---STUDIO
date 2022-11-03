@@ -93,13 +93,12 @@ width: 370px;
 height: 294px;
 left: 0px;
 top: 0px;
-
+opacity: 0;
 background: rgba(33, 150, 243, 0.9);
 padding-top: 63px;
 padding-left: 24px;
 transform: translateY(500px);
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1)
-
 }
 
 .product-text{
@@ -119,4 +118,5 @@ color: #FFFFFF;
 
 .card-main__item:hover .product-name{
     transform: translateY(0);
+    opacity: 1;
 }
