@@ -974,8 +974,13 @@ address {
   width: 206px;
   margin: 0;
   display: block;
-  margin-left: 178px;
+  margin-left: 70px;
   margin-top: 15px;
+}
+@media screen and (max-width: 768) {
+  .svg-footer {
+    margin-left: 178px;
+  }
 }
 
 .svg-footer-name {
