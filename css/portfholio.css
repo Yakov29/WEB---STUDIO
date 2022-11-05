@@ -1,6 +1,11 @@
 body {
   font-family: "Roboto";
 }
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
 
 .container {
   width: 1200px;
@@ -9,7 +14,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
-  /* outline: green 10px solid; */
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin-left: px;
+  }
 }
 
 a {
@@ -28,16 +39,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  /* outline: green 10px solid; */
 }
 
 /* header{
@@ -143,6 +144,11 @@ nav {
           align-items: center;
   margin-left: auto;
   fill: currentColor;
+}
+@media screen and (max-width: 768px) {
+  .header-contacts {
+    display: block;
+  }
 }
 
 .header-contacts__item {
@@ -259,6 +265,16 @@ nav {
   padding-bottom: 94px;
 }
 
+.main-section .container {
+  width: 1200px;
+  outline: green 1px solid;
+}
+@media screen and (max-width: 768px) {
+  .main-section .container {
+    width: 768px;
+  }
+}
+
 .card-main__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,6 +284,16 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .card-main__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 768px;
+  }
 }
 
 .card-main__item {
@@ -283,7 +309,18 @@ nav {
   transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   width: 370px;
 }
+@media screen and (max-width: 768px) {
+  .card-main__item {
+    margin: 0;
+    margin-top: 10px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .card-main__item:nth-child(1n) {
+    margin-right: 10px;
+  }
+}
 .card-main__item:hover {
   border: 1px solid #EEEEEE;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -291,6 +328,12 @@ nav {
   border-radius: 4px 4px 4px 4px;
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
+}
+@media screen and (max-width: 768px) {
+  .card-main__item:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .card-main__name {
@@ -346,6 +389,26 @@ footer {
   background: #2F303A;
   height: 252px;
 }
+@media screen and (max-width: 768px) {
+  footer {
+    width: 768px;
+    height: 463px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .container {
+    width: 768px;
+    height: 440px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 89px;
+  }
+}
 
 address {
   margin-top: 20px;
@@ -378,7 +441,7 @@ address {
   width: 206px;
   margin: 0;
   display: block;
-  margin-left: 70px;
+  margin-left: 178px;
   margin-top: 15px;
 }
 

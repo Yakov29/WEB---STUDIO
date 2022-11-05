@@ -10,15 +10,22 @@ margin-bottom: 50px;
 color: $text-color;
 }
 
+.postiyni-section .container{
+    margin-top: 0;
+}
+
 .postiyni-section{
     background-color: #FFFFFF;
     height: 364px;
-    padding-top: 94px;
+    // padding-top: 94px;
 }
 
 .klients-list-main{
     display: flex;
-
+@media screen and (max-width:768px) {
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
 }
 
 .klients-list-item{
@@ -32,6 +39,9 @@ color: $text-color;
     fill: #AFB1B8;
     transform: scale(1, 1);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (max-width:768px) {
+    margin-top: 30px;
+}
 }
 
 .klients-list-item:hover{

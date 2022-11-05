@@ -1,5 +1,9 @@
 body{
     font-family: 'Roboto';
+
+    @media screen and (max-width:768px) {
+        width: 768px;
+    }
 }
 .container{
     width: 1200px;
@@ -8,5 +12,16 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
-    /* outline: green 10px solid; */
+    // outline: red 10px solid;
+display: block;
+
+    @media screen and (max-width:768px) {
+        width: 768px;
+        margin-left: px;
+    }
+    
+}
+
+section{
+    // outline: 10px solid green;
 }

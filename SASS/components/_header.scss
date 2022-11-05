@@ -1,12 +1,3 @@
-.container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    /* outline: green 10px solid; */
-}
 
 /* header{
     position: fixed;
@@ -103,6 +94,10 @@ nav{
     align-items: center;
     margin-left: auto;
     fill: currentColor;
+
+    @media screen and (max-width:768px) {
+        display: block;
+    }
 }
 
 .header-contacts__item{
