@@ -54,10 +54,6 @@ header {
   border-bottom: solid #ECECEC 0.1px;
 }
 
-header, section {
-  /* outline: 10px solid green; */
-}
-
 header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -939,7 +935,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 89px;
+    margin-left: 0;
   }
 }
 
