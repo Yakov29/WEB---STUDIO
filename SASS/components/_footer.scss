@@ -112,6 +112,9 @@ color: #FFFFFF;
     margin-left: 70px;
     transform: translateY(-46%);
     margin-left: 70px;
+    @media screen and (max-width:768px) {
+        display: none;
+    }
 }
 
 .email-footer-subgred{

@@ -503,6 +503,11 @@ address {
           transform: translateY(-46%);
   margin-left: 70px;
 }
+@media screen and (max-width: 768px) {
+  .subgred {
+    display: none;
+  }
+}
 
 .email-footer-subgred {
   background: #2F303A;

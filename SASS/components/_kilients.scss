@@ -20,7 +20,8 @@ color: $text-color;
     padding-top: 94px;
 
     @media screen and (max-width:768px) {
-        padding-top: 0;
+        padding-top: 94px;
+        height: 500px;
     }
 }
 
@@ -29,6 +30,7 @@ color: $text-color;
 @media screen and (max-width:768px) {
     flex-wrap: wrap;
     margin-top: 30px;
+    margin-left: 50px;
 }
 }
 
