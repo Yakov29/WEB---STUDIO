@@ -726,6 +726,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .our-team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 50px;
 }
 @media screen and (max-width: 768px) {
@@ -864,6 +867,12 @@ h1, h2, h3, h4, h5 {
 .postiyni-section {
   background-color: #FFFFFF;
   height: 364px;
+  padding-top: 94px;
+}
+@media screen and (max-width: 768px) {
+  .postiyni-section {
+    padding-top: 0;
+  }
 }
 
 .klients-list-main {

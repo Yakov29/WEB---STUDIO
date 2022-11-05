@@ -17,7 +17,11 @@ color: $text-color;
 .postiyni-section{
     background-color: #FFFFFF;
     height: 364px;
-    // padding-top: 94px;
+    padding-top: 94px;
+
+    @media screen and (max-width:768px) {
+        padding-top: 0;
+    }
 }
 
 .klients-list-main{
