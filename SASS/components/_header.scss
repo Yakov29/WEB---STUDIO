@@ -64,6 +64,11 @@ span{
 
 .navigation-list{
    display: flex;
+
+    @media screen and (max-width:768px) {
+        margin-left: 0;
+        width: 289.93px;
+    }
 }
 
 nav{
@@ -97,6 +102,7 @@ nav{
 
     @media screen and (max-width:768px) {
         display: block;
+        
     }
 }
 

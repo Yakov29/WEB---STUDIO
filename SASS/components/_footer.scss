@@ -2,6 +2,7 @@ footer{
     padding-top: 60px;
 background: #2F303A;
 height: 252px;
+position: relative;
 
 
 @media screen and (max-width:768px) {
@@ -29,6 +30,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 font-style: normal;
+margin-left: 89px;
 
 }
 
@@ -43,6 +45,7 @@ font-style: normal;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-left: 125px;
     
 }
 
@@ -50,6 +53,7 @@ font-style: normal;
     display: block;
     margin-top: 9px;
     color: #FFFFFF99;
+    margin-left: 129px;
 }
 
 .svg-footer{
@@ -75,6 +79,12 @@ text-transform: uppercase;
 margin-bottom: 20px;
 color: #FFFFFF;
 
+
+@media screen and (max-width:768px) {
+        width: 205.36px;
+        margin-top: 0;
+        height: 12.54px;
+    }
 }
 
 .svg-list-footer{
@@ -117,7 +127,32 @@ color: #FFFFFF;
     transform: translateY(-46%);
     margin-left: 70px;
     @media screen and (max-width:768px) {
-        display: none;
+        top: 249px;
+        left: 166px;
+        margin-left: 0;
+        position: absolute;
+        // display: flex;
+        width: 450px;
+height: 153.1px;
+    }
+}
+
+.subgred-name__footer{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #FFFFFF;
+
+@media screen and (max-width:768px) {
+        margin-top: 0px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        
     }
 }
 
@@ -131,7 +166,15 @@ border-radius: 4px;
 padding-left: 17.32px;
 color: #AFB1B8;
 transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+
+@media screen and (max-width:768px) {
+        margin-top: 0px;
+        left: 0;
+        
+    }
 }
+
 
 .email-footer-subgred:hover{
     border: $hover-color 1px solid;
@@ -167,6 +210,15 @@ letter-spacing: 0.06em;
 
 color: #FFFFFF;
 
+
+
+@media screen and (max-width:768px) {
+         position: absolute;
+         left: 90px;
+         top: 90px;
+         margin-top: 20px;
+        
+    }
 }
 
 .subgred-div-butteon{
@@ -195,4 +247,5 @@ color: #FFFFFF;
 .subgred-name{
     // margin-top: 10px;
     margin-left: 29px;
+    
 }

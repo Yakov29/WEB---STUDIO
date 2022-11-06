@@ -105,6 +105,12 @@ span {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .navigation-list {
+    margin-left: 0;
+    width: 289.93px;
+  }
+}
 
 nav {
   display: -webkit-box;
@@ -384,6 +390,7 @@ footer {
   padding-top: 60px;
   background: #2F303A;
   height: 252px;
+  position: relative;
 }
 @media screen and (max-width: 768px) {
   footer {
@@ -414,6 +421,7 @@ address {
   letter-spacing: 0.03em;
   color: #FFFFFF;
   font-style: normal;
+  margin-left: 89px;
 }
 
 .footer-logo {
@@ -425,12 +433,14 @@ address {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  margin-left: 125px;
 }
 
 .footer-item {
   display: block;
   margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
+  margin-left: 129px;
 }
 
 .svg-footer {
@@ -456,6 +466,13 @@ address {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .svg-footer-name {
+    width: 205.36px;
+    margin-top: 0;
+    height: 12.54px;
+  }
 }
 
 .svg-list-footer {
@@ -506,7 +523,31 @@ address {
 }
 @media screen and (max-width: 768px) {
   .subgred {
-    display: none;
+    top: 249px;
+    left: 166px;
+    margin-left: 0;
+    position: absolute;
+    width: 450px;
+    height: 153.1px;
+  }
+}
+
+.subgred-name__footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .subgred-name__footer {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
   }
 }
 
@@ -522,6 +563,12 @@ address {
   color: #AFB1B8;
   -webkit-transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+@media screen and (max-width: 768px) {
+  .email-footer-subgred {
+    margin-top: 0px;
+    left: 0;
+  }
 }
 
 .email-footer-subgred:hover {
@@ -556,6 +603,14 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .footer-submit {
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    margin-top: 20px;
+  }
 }
 
 .subgred-div-butteon {
