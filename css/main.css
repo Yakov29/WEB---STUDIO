@@ -120,9 +120,9 @@ header .container {
   padding-top: 10px;
   fill: #000000;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .close {
-    margin-left: 412px;
+    margin-left: 312px;
   }
 }
 
