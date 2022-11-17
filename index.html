@@ -12,6 +12,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="icon" href="/img/w.svg">
+    <link rel="stylesheet" href="./js/modal.js">
     <title>Головна</title>
   </head>
   <body>
@@ -22,6 +23,49 @@
           <a class="header-logo" href="./index.html">
             <span>Web</span>Studio
           </a>
+          <svg data-open-header-modal class="menu__modal-svg" width="24px" height="16px">
+                <use href="./img/symbol-defs.svg#icon-menu_24px"></use>
+              </svg>
+              <div data-header-backdrop is-hidden class="backdrop">
+                <form class="header-modal">
+                   <svg data-close-header-modal class="close" width="11px" height="11px">
+            <use href="./img/symbol-defs.svg#icon-Vector-close"></use></svg>
+            <ul class="header-modal__list">
+              <li class="header-modal__item">
+                <a class="header-modal__link" href="./index.html">Студія</a>
+              </li>
+              <li class="header-modal__item">
+                <a class="header-modal__link" href="./portfholio.html">Портфоліо</a>
+              </li>
+              <li class="header-modal__item">
+                <a class="header-modal__link" href="./">Контакти</a>
+              </li>
+            </ul>
+            <ul class="modal-contacst__list">
+              <li class="modal-contacst__item">
+                <a class="modal-contacst__link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+              </li>
+              <li class="modal-contacst__item">
+                <a class="modal-contacst__link" href="tel:+38 096 111 11 11">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mini-links__list">
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://www.instagram.com/">Instagram</a>
+              </li>
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://twitter.com/">Twitter</a>
+              </li>
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://uk-ua.facebook.com/">Facebook</a>
+              </li>
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://ua.linkedin.com/">LinkedIn</a>
+              </li>
+            </ul>
+                </form>
+              </div>
+              
           <ul class="navigation-list">
             <li class="navigation-list__item">
               <a class="navigation-list__link" href="./index.html">Студія</a>
@@ -35,6 +79,7 @@
           </ul>
            <div class="line-nav-list"></div>
         </nav>
+         
         <ul class="header-contacts">
             <li class="header-contacts__item">
              <a class="header-contacts__link" href="mailto:info@devstudio.com"><svg class="header-contacts__icon" width="16px" height="16px">
@@ -56,8 +101,6 @@
         </div>
         <div data-backdrop class="backdrop is-hidden">
           <form class="modal">
-          <svg data-close-modal class="close" width="11px" height="11px">
-            <use href="./img/symbol-defs.svg#icon-Vector-close"></use></svg>
         <h3 class="name-section">Залиште свої дані, ми Вам зателефонуємо</h3>
         <ul class="modal-list">
           <li class="item">
@@ -175,6 +218,8 @@
                 alt="Ігор Дем’яненко"
                 width="270"
                 height="260"
+                class="team-img"
+                
               />
               <h3 class="our-team__name">Ігор Дем’яненко</h3>
               <p class="our-team__description">Product Designer</p>
@@ -207,6 +252,7 @@
                 alt="Ольга Репіна"
                 width="270"
                 height="260"
+                class="team-img"
               />
               <h3 class="our-team__name">Ольга Репіна</h3>
               <p class="our-team__description">Frontend Developer</p>
@@ -239,6 +285,7 @@
                 alt="Микола Тарасов"
                 width="270"
                 height="260"
+                class="team-img"
               />
               <h3 class="our-team__name">Микола Тарасов</h3>
               <p class="our-team__description">Marketing</p>
@@ -271,6 +318,7 @@
                 alt="Михайло Єрмаков"
                 width="270"
                 height="260"
+                class="team-img"
               />
               <h3 class="our-team__name">Михайло Єрмаков</h3>
               <p class="our-team__description">UI Designer</p>
@@ -385,24 +433,19 @@
       </div>
     </footer>
     <script>
-      const refs = {
-        openModalBtn: document.querySelector("[data-open-modal]"),
-        closeModalBtn: document.querySelector("[data-close-modal]"),
-        backdrop: document.querySelector("[data-backdrop]"),
-      };
+     
+      
 
-      refs.openModalBtn.addEventListener("click", toggleModal);
-      refs.closeModalBtn.addEventListener("click", toggleModal);
+</script>
+<script src="./js/mobile-modal.js">
+  
+      
+      
 
-      refs.backdrop.addEventListener("click", logBackdropClick);
-
-      function toggleModal() {
-        refs.backdrop.classList.toggle("is-hidden");
-      }
-
-      function logBackdropClick() {
-        console.log("Це клік в бекдроп");
-      }
-    </script>
+</script>
+<script src="./js/modal.js">
+  
+ 
+</script>
   </body>
 </html>

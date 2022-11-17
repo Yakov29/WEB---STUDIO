@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/portfholio.min.css" />
     <link rel="icon" href="/img/w.svg" />
+    <link rel="stylesheet" href="./js/modal.js">
     <title>Портфоліо</title>
   </head>
   <body>
@@ -23,6 +23,49 @@
           <a class="header-logo" href="./index.html">
             <span>Web</span>Studio
           </a>
+           <svg data-open-header-modal class="menu__modal-svg" width="24px" height="16px">
+                <use href="./img/symbol-defs.svg#icon-menu_24px"></use>
+              </svg>
+              <div data-backdrop is-hidden class="backdrop">
+                <form class="header-modal">
+                   <svg data-close-header-modal class="close" width="11px" height="11px">
+            <use href="./img/symbol-defs.svg#icon-Vector-close"></use></svg>
+            <ul class="header-modal__list">
+              <li class="header-modal__item">
+                <a class="header-modal__link" href="./index.html">Студія</a>
+              </li>
+              <li class="header-modal__item">
+                <a class="header-modal__link" href="./portfholio.html">Портфоліо</a>
+              </li>
+              <li class="header-modal__item">
+                <a class="header-modal__link" href="./">Контакти</a>
+              </li>
+            </ul>
+            <ul class="modal-contacst__list">
+              <li class="modal-contacst__item">
+                <a class="modal-contacst__link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+              </li>
+              <li class="modal-contacst__item">
+                <a class="modal-contacst__link" href="tel:+38 096 111 11 11">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mini-links__list">
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://www.instagram.com/">Instagram</a>
+              </li>
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://twitter.com/">Twitter</a>
+              </li>
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://uk-ua.facebook.com/">Facebook</a>
+              </li>
+              <li class="mini-links__item">
+                <a class="mini-links__link" href="https://ua.linkedin.com/">LinkedIn</a>
+              </li>
+            </ul>
+                </form>
+              </div>
+              
           <ul class="navigation-list">
             <li class="navigation-list__item">
               <a class="navigation-list__link" href="./index.html">Студія</a>
@@ -36,6 +79,7 @@
           </ul>
            <div class="line-nav-list"></div>
         </nav>
+         
         <ul class="header-contacts">
             <li class="header-contacts__item">
              <a class="header-contacts__link" href="mailto:info@devstudio.com"><svg class="header-contacts__icon" width="16px" height="16px">
@@ -76,7 +120,7 @@
           <ul class="card-main__list">
             <li class="card-main__item">
               <div class="product-box">
-                <img src="img/trxhorzr.png" alt="Технокряк" />
+                <img src="img/portfholio-image1.png" alt="Технокряк" />
                 <h3 class="card-main__name">Технокряк</h3>
                 <p class="card-main__card-item">Веб-сайт</p>
                 <div class="product-name">
@@ -91,7 +135,7 @@
             <li class="card-main__item">
               <div class="product-box">
                 <img
-                  src="img/poster.png"
+                  src="img/portfholio-image2.png"
                   alt="Постер New Orlean vs Golden Star"
                 />
                 <h3 class="card-main__name">
@@ -109,7 +153,7 @@
             </li>
             <li class="card-main__item">
               <div class="product-box">
-                <img src="img/reztor.png" alt="Ресторан Seafood" />
+                <img src="img/portfholio-image3.png" alt="Ресторан Seafood" />
                 <h3 class="card-main__name">Ресторан Seafood</h3>
                 <p class="card-main__card-item">Застосунок</p>
                 <div class="product-name">
@@ -123,7 +167,7 @@
             </li>
             <li class="card-main__item">
               <div class="product-box">
-                <img src="img/prime.png" alt="Проект Prime" />
+                <img src="img/portfholio-image4.jpg" alt="Проект Prime" />
                 <h3 class="card-main__name">Проект Prime</h3>
                 <p class="card-main__card-item">Маркетинг</p>
                 <div class="product-name">
@@ -137,7 +181,7 @@
             </li>
             <li class="card-main__item">
               <div class="product-box">
-                <img src="img/boxes.png" alt="Проект Boxes" />
+                <img src="img/portfholio-image5.png" alt="Проект Boxes" />
                 <h3 class="card-main__name">Проект Boxes</h3>
                 <p class="card-main__card-item">Застосунок</p>
                 <div class="product-name">
@@ -152,7 +196,7 @@
             <li class="card-main__item">
               <div class="product-box">
                 <img
-                  src="img/inspiration.png"
+                  src="img/portfholio-image6.png"
                   alt="Inspiration has no Borders"
                 />
                 <h3 class="card-main__name">Inspiration has no Borders</h3>
@@ -168,7 +212,7 @@
             </li>
             <li class="card-main__item">
               <div class="product-box">
-                <img src="img/vidav.png" alt="Видавництво Limited Edition" />
+                <img src="img/portfholio-image7.png" alt="Видавництво Limited Edition" />
                 <h3 class="card-main__name">Видавництво Limited Edition</h3>
                 <p class="card-main__card-item">Дизайн</p>
                 <div class="product-name">
@@ -182,7 +226,7 @@
             </li>
             <li class="card-main__item">
               <div class="product-box">
-                <img src="img/lab.png" alt="Проект LAB" />
+                <img src="img/portfholio-image8.png" alt="Проект LAB" />
                 <h3 class="card-main__name">Проект LAB</h3>
                 <p class="card-main__card-item">Маркетинг</p>
                 <div class="product-name">
@@ -196,7 +240,7 @@
             </li>
             <li class="card-main__item">
               <div class="product-box">
-                <img src="img/groving.png" alt="Growing Business" />
+                <img src="img/portfholio-image9.png" alt="Growing Business" />
                 <h3 class="card-main__name">Growing Business</h3>
                 <p class="card-main__card-item">Застосунок</p>
                 <div class="product-name">
@@ -246,7 +290,7 @@
               </svg>
             </li>
             <div class="subgred">
-              <p class="svg-footer-name">ПІДПИШІТЬСЯ НА РОЗСІЛКУ</p>
+              <p class="subgred-name__footer">ПІДПИШІТЬСЯ НА РОЗСІЛКУ</p>
               <input class="email-footer-subgred" placeholder="E-mail" type="email">
               <button class="footer-submit" type="submit"><div class="subgred-div-butteon"><p class="subgred-name">Підписатсь</p><svg class="footer-subgred-svg" width="24px" height="24px">
                 <use href="./img/symbol-defs.svg#icon-icon-send-1"></use>
@@ -257,5 +301,20 @@
         </div>
       </div>
     </footer>
+     <script>
+     
+      
+
+</script>
+<script src="./js/mobile-modal.js">
+  
+      
+      
+
+</script>
+<script src="./js/modal.js">
+  
+ 
+</script>
   </body>
 </html>

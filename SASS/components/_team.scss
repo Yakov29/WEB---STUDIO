@@ -11,7 +11,31 @@ letter-spacing: 0.03em;
 
 color: $text-color;
 
+
+ @media screen and (max-width:480px) {
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+width: 210px;
+margin-left: 138px;
+
+    }
 }
+
+@media screen and (max-width:480px) {
+      .our-team .container{
+         width: 450px;
+        height: 11111000px;
+      }
+    }
 
 
 .div-description-box{
@@ -40,6 +64,12 @@ color: #FFFFFF;
         height: 1285px;
         width: 768px;
     }
+
+    @media screen and (max-width:480px) {
+        width: 480px;
+        margin-left: 0px;
+        height: 2761px;
+    }
 }
 
 .our-team .container{
@@ -48,7 +78,11 @@ align-items: center;
 @media screen and (max-width:768px) {
         height: 1180px;
         width: 768px;
-        margin-left: px;
+        padding-left: 0;
+    }
+
+    @media screen and (max-width:480px) {
+        width: 470px;
     }
 }
 
@@ -59,9 +93,16 @@ display: flex;
  @media screen and (max-width:768px) {
         flex-wrap: wrap;
          display: flex;
-         margin-left: 90px;
+         width: 768px;
+         margin-left: 15px;
     }
 
+    @media screen and (max-width:480px) {
+        display: block;
+        margin-left: 15px;
+        width: 480px;
+        margin-right: 0;
+    }
 }
 
 .our-team__item{
@@ -74,12 +115,39 @@ display: flex;
 
     @media screen and (max-width:768px) {
         margin-top: 30px;
+        width: 354px;
+height: 536px;
+flex-wrap: wrap;
     }
     
+     @media screen and (max-width:480px) {
+        width: 450px;
+height: 622px;
+margin: 0;
+padding-bottom: 0;
+    }
+}
+@media screen and (max-width:480px) {
+    .our-team__item:nth-last-child(1n){
+        margin-right: 0;
+    }
+    }
+
+.team-img{
+    @media screen and (max-width:480px) {
+        width: 450px;
+height: 460px;
+    }
+ @media screen and (max-width:768px) {
+       width: 354px;
+height: 374px;
+
+}
 }
 
 .card-item:last-child{
-    margin-right: 0;
+    width: 450px;
+height: 622px;
 }
 
 .our-team__name{
@@ -138,6 +206,15 @@ text-align: center;
     display: flex;
     margin-top: 16px;
     margin-left: 32px;
+
+    @media screen and (max-width:480px) {
+        margin-left: 150px;
+    }
+
+    @media screen and (max-width:768px) {
+       margin-left: 74px;
+
+}
 }
 
 .svg-item{

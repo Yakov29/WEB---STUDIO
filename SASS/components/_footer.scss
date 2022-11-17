@@ -5,13 +5,23 @@ height: 252px;
 position: relative;
 
 
+
+
 @media screen and (max-width:768px) {
     width: 768px;
 height: 463px;
 }
+
+@media screen and (max-width:480px) {
+width: 480px;
+height: 603px;
+
+        padding-top: 60px;
+    }
 }
 
 footer .container{
+    display: flex;
     @media screen and (max-width:768px) {
         width: 768px;
 height: 440px;
@@ -19,6 +29,16 @@ flex-wrap: wrap;
 display: flex;
 flex-wrap: wrap;
 margin-left: 0;
+display: flex;
+    }
+
+    @media screen and (max-width:480px) {
+width: 480px;
+height: 603px;
+flex-wrap: nowrap;
+display: block;
+margin-left: 0px;
+        display: block;
     }
 }
 
@@ -66,6 +86,14 @@ margin-left: 89px;
     @media screen and (max-width:768) {
         margin-left: 178px;
     }
+
+    @media screen and (max-width:480px) {
+         margin-left: 137px;
+         margin-top: 60px;
+         height: 100px;
+         
+        margin-left: 100px;
+    }
 }
 
 .svg-footer-name{
@@ -84,6 +112,10 @@ color: #FFFFFF;
         width: 205.36px;
         margin-top: 0;
         height: 12.54px;
+    }
+
+     @media screen and (max-width:480px) {
+        margin-left: 40px;
     }
 }
 
@@ -118,9 +150,7 @@ color: #FFFFFF;
     margin-left: 0;
 }
 
-.footer .container{
-    display: flex;
-}
+
 .subgred{
     position: relative;
     margin-left: 70px;
@@ -134,6 +164,12 @@ color: #FFFFFF;
         // display: flex;
         width: 450px;
 height: 153.1px;
+    }
+
+    @media screen and (max-width:480px) {
+        position: absolute;
+        top: 387px;
+        left: 15px;
     }
 }
 
@@ -154,7 +190,11 @@ color: #FFFFFF;
         margin-bottom: 20px;
         
     }
+
+    
 }
+
+
 
 .email-footer-subgred{
     background: #2F303A;
@@ -172,6 +212,10 @@ transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
         margin-top: 0px;
         left: 0;
         
+    }
+
+    @media screen and (max-width:480px) {
+       width: 450px;
     }
 }
 
@@ -219,6 +263,8 @@ color: #FFFFFF;
          margin-top: 20px;
         
     }
+
+    
 }
 
 .subgred-div-butteon{

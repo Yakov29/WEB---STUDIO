@@ -4,6 +4,10 @@ body{
     @media screen and (max-width:768px) {
         width: 768px;
     }
+
+    @media screen and (max-width:480px) {
+        width: 480px;
+    }
 }
 .container{
     width: 1200px;
@@ -12,12 +16,16 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
-    // outline: red 10px solid;
+    outline: red 10px solid;
 display: block;
 
     @media screen and (max-width:768px) {
         width: 768px;
-        margin-left: px;
+    }
+
+    @media screen and (max-width:480px) {
+        width: 480px;
+        margin-left: 0px;
     }
     
 }

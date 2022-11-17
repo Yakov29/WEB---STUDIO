@@ -12,6 +12,9 @@ color: $text-color;
 
 .postiyni-section .container{
     margin-top: 0;
+    @media screen and (max-width:480px) {
+        height: 393;
+    }
 }
 
 .postiyni-section{
@@ -23,6 +26,11 @@ color: $text-color;
         padding-top: 94px;
         height: 500px;
     }
+
+    @media screen and (max-width:480px) {
+        width: 480px;
+        height: 700px;
+    }
 }
 
 .klients-list-main{
@@ -30,8 +38,16 @@ color: $text-color;
 @media screen and (max-width:768px) {
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-left: 50px;
+    // margin-left: 50px;
+    width: 768px;
 }
+
+@media screen and (max-width:480px) {
+        margin-left: 0;
+        flex-wrap: wrap;
+        display: flex;
+        width: 450px;
+    }
 }
 
 .klients-list-item{
@@ -47,8 +63,30 @@ color: $text-color;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 400ms cubic-bezier(0.4, 0, 0.2, 1);
     @media screen and (max-width:768px) {
     margin-top: 30px;
+    width: 226px;
+    }
+    @media screen and (max-width:480px) {
+    width: 210px;
+height: 90px;
+margin-left: 10px;
+    }
+     
+
+    
 }
-}
+
+// @media screen and (max-width:768px) {
+//    .klients-list-item:nth-child(1){
+//     margin-left: 0;
+//    }
+//     }
+
+//     @media screen and (max-width:768px) {
+//    .klients-list-item:nth-child(4){
+//     margin-left: 0;
+//    }
+//     }
+
 
 .klients-list-item:hover{
     border: #2196F3 1px solid;
