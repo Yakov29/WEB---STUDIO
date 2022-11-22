@@ -76,8 +76,13 @@ color: #FFFFFF;
     
 align-items: center;
 @media screen and (max-width:768px) {
-        height: 1180px;
+        // height: 1180px;
         width: 768px;
+        padding-left: 0;
+    }
+    @media screen and (max-width:480px) {
+        height: 2761px;
+        width: 480px;
         padding-left: 0;
     }
 

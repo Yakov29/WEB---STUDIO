@@ -23,13 +23,18 @@
           <a class="header-logo" href="./index.html">
             <span>Web</span>Studio
           </a>
-           <svg data-open-header-modal class="menu__modal-svg" width="24px" height="16px">
-                <use href="./img/symbol-defs.svg#icon-menu_24px"></use>
+          <button data-open-header-modal>
+          <svg class="menu__modal-svg" width="24px" height="16px">
+                <use href="./img/symbol-defs.svg#icon-open"></use>
               </svg>
-              <div data-backdrop is-hidden class="backdrop">
+          </button>
+               <div data-header-backdrop class="backdrop is-hidden">
                 <form class="header-modal">
-                   <svg data-close-header-modal class="close" width="11px" height="11px">
-            <use href="./img/symbol-defs.svg#icon-Vector-close"></use></svg>
+                  <button data-close-header-modal>
+                    <svg  class="close" width="11px" height="11px">
+            <use href="./img/symbol-defs.svg#icon-Vector-close"></use>
+          </svg>
+                  </button>
             <ul class="header-modal__list">
               <li class="header-modal__item">
                 <a class="header-modal__link" href="./index.html">Студія</a>
@@ -90,6 +95,7 @@
                 <use href="./img/symbol-defs.svg#icon-smartphone"></use>
               </svg><span class="header-contacts__text">+38 096 111 11 11</span></a></li>
          </ul>
+         </div>
     </header>
     <div class="line-nav-list"></div>
     <!-- Main -->
