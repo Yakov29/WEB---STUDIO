@@ -100,6 +100,10 @@ header .container {
   display: none;
 }
 
+.button-open {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
 @media screen and (min-width: 480px) {
   .button-open {
     display: none;
@@ -110,6 +114,8 @@ header .container {
   width: 40px;
   height: 40px;
   margin-left: 425px;
+  background-color: transparent;
+  border: 1px solid #ECECEC;
 }
 
 .modal {
