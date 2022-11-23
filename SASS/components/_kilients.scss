@@ -39,14 +39,14 @@ color: $text-color;
     flex-wrap: wrap;
     margin-top: 30px;
     // margin-left: 50px;
-    width: 768px;
+    
 }
 
 @media screen and (max-width:480px) {
         margin-left: 0;
         flex-wrap: wrap;
         display: flex;
-        width: 450px;
+        
     }
 }
 
@@ -68,7 +68,7 @@ color: $text-color;
     @media screen and (max-width:480px) {
     width: 210px;
 height: 90px;
-margin-left: 10px;
+
     }
      
 
