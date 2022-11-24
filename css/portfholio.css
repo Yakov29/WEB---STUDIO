@@ -713,7 +713,11 @@ address {
   letter-spacing: 0.03em;
   color: #FFFFFF;
   font-style: normal;
-  margin-left: 89px;
+}
+@media screen and (max-width: 768px) {
+  address {
+    margin-left: 89px;
+  }
 }
 
 .footer-logo {
@@ -725,14 +729,22 @@ address {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #FFFFFF;
-  margin-left: 125px;
+}
+@media screen and (max-width: 768px) {
+  .footer-logo {
+    margin-left: 125px;
+  }
 }
 
 .footer-item {
   display: block;
   margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
-  margin-left: 129px;
+}
+@media screen and (max-width: 768px) {
+  .footer-item {
+    margin-left: 129px;
+  }
 }
 
 .svg-footer {

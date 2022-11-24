@@ -50,7 +50,10 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 font-style: normal;
-margin-left: 89px;
+
+@media screen and (max-width:768px) {
+    margin-left: 89px;
+}
 
 }
 
@@ -65,15 +68,18 @@ margin-left: 89px;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    @media screen and (max-width:768px) {
     margin-left: 125px;
-    
+}
 }
 
 .footer-item{
     display: block;
     margin-top: 9px;
     color: #FFFFFF99;
+    @media screen and (max-width:768px) {
     margin-left: 129px;
+}
 }
 
 .svg-footer{

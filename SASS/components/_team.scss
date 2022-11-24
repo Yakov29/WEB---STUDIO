@@ -33,7 +33,6 @@ margin-left: 138px;
 @media screen and (max-width:480px) {
       .our-team .container{
          width: 450px;
-        height: 11111000px;
       }
     }
 
@@ -61,14 +60,12 @@ color: #FFFFFF;
     padding-bottom: 94px;
 
     @media screen and (max-width:768px) {
-        height: 1285px;
         width: 768px;
     }
 
     @media screen and (max-width:480px) {
         width: 480px;
         margin-left: 0px;
-        height: 2761px;
     }
 }
 
@@ -81,7 +78,6 @@ align-items: center;
         padding-left: 0;
     }
     @media screen and (max-width:480px) {
-        height: 2761px;
         width: 480px;
         padding-left: 0;
     }
@@ -93,6 +89,7 @@ align-items: center;
 
 .our-team__list{
 display: flex;
+justify-content: center;
  margin-top: 50px;
 
  @media screen and (max-width:768px) {
@@ -115,21 +112,23 @@ display: flex;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 30px;
+    // margin-right: 30px;
     padding-bottom: 30px;
+    margin-right: 30px;
 
     @media screen and (max-width:768px) {
         margin-top: 30px;
         width: 354px;
-height: 536px;
+
 flex-wrap: wrap;
     }
     
      @media screen and (max-width:480px) {
         width: 450px;
-height: 622px;
+margin-right: 0;
 margin: 0;
-padding-bottom: 0;
+padding-bottom: 24px;
+margin-bottom: 30px;
     }
 }
 @media screen and (max-width:480px) {
@@ -140,19 +139,20 @@ padding-bottom: 0;
 
 .team-img{
     @media screen and (max-width:480px) {
-        width: 450px;
-height: 460px;
+        
+        height: 400px;
+
     }
  @media screen and (max-width:768px) {
        width: 354px;
-height: 374px;
+
 
 }
 }
 
 .card-item:last-child{
     width: 450px;
-height: 622px;
+
 }
 
 .our-team__name{
@@ -212,14 +212,17 @@ text-align: center;
     margin-top: 16px;
     margin-left: 32px;
 
-    @media screen and (max-width:480px) {
-        margin-left: 150px;
-    }
+   
 
     @media screen and (max-width:768px) {
        margin-left: 74px;
 
 }
+
+
+ @media screen and (max-width:480px) {
+        margin-left: 120px;
+    }
 }
 
 .svg-item{
