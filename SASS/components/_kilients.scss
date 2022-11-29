@@ -13,6 +13,7 @@ color: $text-color;
 .postiyni-section .container{
     margin-top: 0;
     @media screen and (max-width:480px) {
+        width: 480px;
     }
 }
 
