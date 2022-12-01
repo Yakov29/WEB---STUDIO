@@ -712,6 +712,7 @@ footer .container {
         flex-wrap: nowrap;
     display: block;
     margin-left: 0px;
+    display: block;
   }
 }
 
@@ -844,7 +845,10 @@ address {
 }
 @media screen and (max-width: 768px) {
   .subgred {
+    top: 249px;
+    left: 166px;
     margin-left: 0;
+    position: absolute;
     width: 450px;
     height: 153.1px;
   }
