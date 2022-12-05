@@ -1,7 +1,7 @@
 .button-list__main{
     display: flex;
     justify-content: center;
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:1200px) {
         display: flex;
         flex-wrap: wrap;
     }
@@ -23,7 +23,7 @@ color: #212121;
 
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1200px) {
       .button-list__item:nth-child(4) {
         margin-left: 0;
       }
@@ -34,7 +34,7 @@ color: #212121;
 }
 
 .button-list__element:nth-child(4){
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:1200px) {
         margin-left: 0;
     }
 }
@@ -65,8 +65,8 @@ transform: scale(1.1, 1.1);
     width: 1200px;
     outline: green 1px solid;
 
-    @media screen and (max-width:768px) {
-        width: 768px;
+    @media screen and (max-width:1200px) {
+        width: 1200px;
     }
 }
 .card-img{
@@ -77,16 +77,17 @@ transform: scale(1.1, 1.1);
     flex-wrap: wrap;
     justify-content: center;
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1200px) {
         flex-wrap: wrap;
         display: flex;
         width: 768px;
     }
 
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:768px) {
         flex-wrap: wrap;
         display: flex;
-        width: 480px;
+        width: 450px;
+        padding-left: 15px;
     }
 }
 
@@ -102,18 +103,18 @@ border-radius: 8px;
 transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 width: 370px;
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     margin: 0;
     // margin-right: 30px;
     margin-top: 10px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
         width: 450px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .card-main__item:nth-child(1n){
         margin-right: 10px;
     }
@@ -125,7 +126,7 @@ width: 370px;
 border-radius: 4px 4px 4px 4px;
         transform: scale(1.1, 1.1);
 
-        @media screen and (max-width:768px) {
+        @media screen and (max-width:1200px) {
             transform: scale(1);
         }
 
@@ -159,7 +160,7 @@ background: rgba(33, 150, 243, 0.9);
 padding-top: 63px;
 padding-left: 24px;
 transform: translateY(500px);
-@media screen and (max-width:480px) {
+@media screen and (max-width:1200px) {
         width: 100%;
         height: 355px;
         padding-top: 77px;
@@ -181,7 +182,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1200px) {
         font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;

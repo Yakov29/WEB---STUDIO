@@ -1,11 +1,23 @@
-body{
-    font-family: 'Roboto';
-
-    @media screen and (max-width:768px) {
+html{
+    margin-right: 0;
+    @media screen and (max-width:1200px) {
         width: 768px;
     }
 
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:768px) {
+        width: 480px;
+        
+    }
+}
+
+body{
+    font-family: 'Roboto';
+
+    @media screen and (max-width:1200px) {
+        width: 768px;
+    }
+
+    @media screen and (max-width:768px) {
         width: 480px;
         
     }
@@ -19,17 +31,17 @@ body{
     position: relative;
 display: block;
 
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1200px) {
         width: 768px;
     }
 
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:768px) {
         width: 480px;
         margin-left: 0px;
     }
     
 }
 
-// section{
-//     // outline: 10px solid green;
-// }
+section{
+    // outline: 10px solid green;
+}
