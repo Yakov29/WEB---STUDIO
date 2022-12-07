@@ -2,43 +2,19 @@ footer{
     padding-top: 60px;
 background: #2F303A;
 height: 252px;
-position: relative;
-
-
-
-
 @media screen and (max-width:1200px) {
-    width: 768px;
-height: 463px;
+    height: 463px;
 }
 
 @media screen and (max-width:768px) {
-width: 480px;
-height: 603px;
-
-        padding-top: 60px;
-    }
+    height: 603px;
+}
 }
 
 footer .container{
-    display: flex;
-    @media screen and (max-width:1200px) {
-        width: 768px;
-// height: 440px;
-flex-wrap: wrap;
 display: flex;
 flex-wrap: wrap;
-margin-left: 0;
-display: flex;
-    }
-
-    @media screen and (max-width:768px) {
-width: 480px;
-flex-wrap: nowrap;
-display: block;
-margin-left: 0px;
-        display: block;
-    }
+    padding-left: 89px;
 }
 
 address{
@@ -50,60 +26,39 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 font-style: normal;
 
-@media screen and (max-width:1200px) {
-    margin-left: 89px;
-}
-
 }
 
 .footer-logo{
 
     
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19px;
-    /* identical to box height */
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    @media screen and (max-width:1200px) {
-    margin-left: 125px;
-}
 }
 
 .footer-item{
     display: block;
     margin-top: 9px;
     color: #FFFFFF99;
-    @media screen and (max-width:1200px) {
-    margin-left: 129px;
-}
+    
 }
 
 .svg-footer{
-    width: 206px;
-    margin: 0;
-    display: block;
     margin-left: 70px;
-    margin-top: 15px;
-
-    @media screen and (max-width:1200) {
-        margin-left: 178px;
+    @media screen and (max-width:1200px) {
+        margin-left: 165px;
     }
 
-    @media screen and (max-width:768px) {
-         margin-left: 137px;
-         margin-top: 60px;
-         height: 100px;
-         
-        margin-left: 100px;
+    @media screen and (max-width:767px) {
+        margin-left: 0;
+        margin-top: 60px;
     }
 }
 
 .svg-footer-name{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -111,17 +66,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 20px;
 color: #FFFFFF;
-
-
-@media screen and (max-width:1200px) {
-        width: 205.36px;
-        margin-top: 0;
-        height: 12.54px;
-    }
-
-     @media screen and (max-width:768px) {
-        margin-left: 40px;
-    }
 }
 
 .svg-list-footer{
@@ -156,47 +100,37 @@ color: #FFFFFF;
 }
 
 
-.subgred{
-    position: relative;
-    margin-left: 70px;
-    transform: translateY(-46%);
-    margin-left: 70px;
-    @media screen and (max-width:1200px) {
-        top: 249px;
-        left: 166px;
-        margin-left: 0;
-        position: absolute;
-        // display: flex;
-        width: 450px;
-height: 153.1px;
-    }
 
-    @media screen and (max-width:768px) {
-        position: absolute;
-        top: 387px;
-        left: 15px;
+.subgred{
+    margin-left: 100px;
+    position: relative;
+   
+    @media screen and (max-width:1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin-top: 102px;
+        
     }
+    @media screen and (max-width:768px) {
+        margin-left: 0;
+        margin-top: 60px;
+        
+    }
+    
 }
 
 .subgred-name__footer{
-    font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-bottom: 20px;
-color: #FFFFFF;
+color: #FFFFFF;  
+@media screen and (max-width:767px) {
 
-@media screen and (max-width:1200px) {
-        margin-top: 0px;
-        margin-left: 100px;
-        margin-bottom: 20px;
-        
-    }
-
-    
+}  
 }
 
 
@@ -208,14 +142,13 @@ width: 400px;
 height: 50px;
 border: $second-recolor 1px solid;
 border-radius: 4px;
-padding-left: 17.32px;
+padding-left: 16px;
 color: #AFB1B8;
 transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-
+margin-top: 20px;
 
 @media screen and (max-width:1200px) {
-        margin-top: 0px;
-        left: 0;
+        margin-top: 20px;
         
     }
 
@@ -239,6 +172,7 @@ transition: 1s cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 width: 200px;
 height: 50px;
+
 border-radius: 4px;
 border: $hover-color 1px solid;
 color: #F5F4FA;
@@ -259,14 +193,11 @@ letter-spacing: 0.06em;
 
 color: #FFFFFF;
 
-
-
+padding-left: 31px;
+top: 20px;
 @media screen and (max-width:1200px) {
-         position: absolute;
-         left: 90px;
-         top: 90px;
-         margin-top: 20px;
-        
+       top: 90px;  
+      margin-top: 20px;  
     }
 
     

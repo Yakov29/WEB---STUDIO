@@ -59,6 +59,7 @@ transform: scale(1.1, 1.1);
 .main-section{
     padding-top: 50px;
     padding-bottom: 94px;
+    
 }
 
 .main-section .container{
@@ -66,7 +67,7 @@ transform: scale(1.1, 1.1);
     outline: green 1px solid;
 
     @media screen and (max-width:1200px) {
-        width: 1200px;
+        width:768px;
     }
 }
 .card-img{
@@ -80,14 +81,11 @@ transform: scale(1.1, 1.1);
     @media screen and (max-width:1200px) {
         flex-wrap: wrap;
         display: flex;
-        width: 768px;
     }
 
     @media screen and (max-width:768px) {
         flex-wrap: wrap;
         display: flex;
-        width: 450px;
-        padding-left: 15px;
     }
 }
 

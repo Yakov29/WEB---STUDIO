@@ -1,8 +1,6 @@
 
 
 .name-section-team{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -63,34 +61,9 @@ color: #FFFFFF;
     padding-top: 94px;
     padding-bottom: 94px;
 
-    @media screen and (max-width:1200px) {
-        width: 768px;
-    }
-
-    @media screen and (max-width:768px) {
-        width: 480px;
-        margin-left: 0px;
-        padding-left: 15px;
-    }
-}
-
-.our-team .container{
     
-align-items: center;
-@media screen and (max-width:1200px) {
-        // height: 1180px;
-        width: 768px;
-        padding-left: 0;
-    }
-    @media screen and (max-width:768px) {
-        width: 480px;
-        padding-left: 0;
-    }
-
-    @media screen and (max-width:768px) {
-        width: 470px;
-    }
 }
+
 
 .our-team__list{
 display: flex;

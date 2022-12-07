@@ -12,25 +12,21 @@ color: $text-color;
 
 .postiyni-section .container{
     margin-top: 0;
-    @media screen and (max-width:768px) {
-        width: 480px;
-    }
 }
 
 .postiyni-section{
     background-color: #FFFFFF;
-    height: 364px;
     padding-top: 94px;
+    padding-bottom: 94px;
 
-    @media screen and (max-width:1200px) {
-        padding-top: 94px;
-        height: 500px;
-    }
+    // @media screen and (max-width:1200px) {
+    //     height: 500px;
+    // }
 
-    @media screen and (max-width:768px) {
-        width: 480px;
-        height: 700px;
-    }
+    // @media screen and (max-width:768px) {
+    //     width: 480px;
+    //     height: 700px;
+    // }
 }
 
 .klients-list-main{

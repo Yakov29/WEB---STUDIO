@@ -1,26 +1,7 @@
-html{
-    margin-right: 0;
-    @media screen and (max-width:1200px) {
-        width: 768px;
-    }
 
-    @media screen and (max-width:768px) {
-        width: 480px;
-        
-    }
-}
 
 body{
     font-family: 'Roboto';
-
-    @media screen and (max-width:1200px) {
-        width: 768px;
-    }
-
-    @media screen and (max-width:768px) {
-        width: 480px;
-        
-    }
 }
 .container{
     width: 1200px;
@@ -28,7 +9,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    position: relative;
+    
 display: block;
 
     @media screen and (max-width:1200px) {
@@ -36,8 +17,7 @@ display: block;
     }
 
     @media screen and (max-width:768px) {
-        width: 480px;
-        margin-left: 0px;
+       width: 480px;
     }
     
 }
