@@ -74,12 +74,12 @@ justify-content: center;
         flex-wrap: wrap;
          display: flex;
          width: 738px;
-         margin-left: 20px;
+        //  margin-left: 20px;
     }
 
     @media screen and (max-width:768px) {
         display: block;
-        margin-left: 0;
+        margin-left: 0px;
         width: 450px;
     }
 }

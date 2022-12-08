@@ -100,8 +100,6 @@ header .container {
 }
 
 .button-close {
-  width: 40px;
-  height: 40px;
   margin-left: 425px;
   background-color: transparent;
   border: 1px solid #ECECEC;
@@ -947,13 +945,12 @@ nav {
     display: -ms-flexbox;
     display: flex;
     width: 738px;
-    margin-left: 20px;
   }
 }
 @media screen and (max-width: 768px) {
   .our-team__list {
     display: block;
-    margin-left: 0;
+    margin-left: 0px;
     width: 450px;
   }
 }
@@ -1206,6 +1203,9 @@ footer {
   padding-top: 60px;
   background: #2F303A;
   height: 252px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (max-width: 1200px) {
   footer {
@@ -1224,7 +1224,15 @@ footer .container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-left: 89px;
+  padding-left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  footer .container {
+    padding-left: 89px;
+  }
 }
 
 address {
@@ -1264,6 +1272,9 @@ address {
   .svg-footer {
     margin-left: 0;
     margin-top: 60px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1275,6 +1286,11 @@ address {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .svg-footer-name {
+    margin-left: 35px;
+  }
 }
 
 .svg-list-footer {
@@ -1321,6 +1337,9 @@ address {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 102px;
   }
 }
